@@ -10,10 +10,49 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_30_204839) do
+ActiveRecord::Schema.define(version: 2019_04_30_212858) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "albums", force: :cascade do |t|
+    t.string "title", null: false
+    t.string "description"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["title"], name: "index_albums_on_title"
+    t.index ["user_id"], name: "index_albums_on_user_id"
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.integer "user_id", null: false
+    t.integer "photo_id", null: false
+    t.text "body", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["photo_id"], name: "index_comments_on_photo_id"
+    t.index ["user_id"], name: "index_comments_on_user_id"
+  end
+
+  create_table "photo_albums", force: :cascade do |t|
+    t.integer "photo_id", null: false
+    t.integer "album_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["album_id"], name: "index_photo_albums_on_album_id"
+    t.index ["photo_id"], name: "index_photo_albums_on_photo_id"
+  end
+
+  create_table "photos", force: :cascade do |t|
+    t.string "title", null: false
+    t.string "description"
+    t.integer "owner_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["owner_id"], name: "index_photos_on_owner_id"
+    t.index ["title"], name: "index_photos_on_title"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "fname", null: false
