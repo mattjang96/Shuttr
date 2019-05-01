@@ -25,8 +25,8 @@ const receiveErrors = (errors) => {
     return ({
         type: RECEIVE_SESSION_ERRORS,
         errors
-    })
-}
+    });
+};
 
 const receiveAllUsers = (users) => {
     return ({
