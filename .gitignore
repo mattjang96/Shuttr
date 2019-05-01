@@ -27,8 +27,9 @@
 /config/master.key
 
 # to add
+/node_modules
 node_modules/
-bundle.js
+bundle.js*
 bundle.js.map
 .byebug_history
 .DS_Store
