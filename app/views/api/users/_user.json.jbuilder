@@ -1,3 +1,3 @@
-
-json.extract! user, :id, :username
-json.favorite_benches user.favorite_benches.pluck(:id)
+json.set! user.id do
+  json.extract! user, :id, :email, :username
+end

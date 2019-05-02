@@ -6,11 +6,19 @@ import {
 
 const sessionErrorsReducer = (oldState = [], action) => {
     Object.freeze(oldState);
+    // debugger;
     switch (action.type) {
         case RECEIVE_CURRENT_USER:
             return [];
         case RECEIVE_SESSION_ERRORS:
-            return action.errors;
+            if (action.errors === undefined) {
+                return [];
+            } else {
+                return action.errors;
+            }
+            
+            // return [] + action.errors;
+            // return action.errors;
         case REMOVE_ERRORS:
             return [];
         default:
