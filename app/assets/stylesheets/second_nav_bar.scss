@@ -1,0 +1,48 @@
+.second-header {
+  top: 64px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: rgb(255, 255, 255);
+  height: 63px;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.3);
+  z-index: 2;
+}
+
+.second-header-navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.second-navbar {
+  font-size: 16px;
+  color: #505050;
+  display: flex;
+  align-items: center;
+}
+
+.second-navbar > li {
+  margin-right: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  padding: 12px 20px;
+  border-bottom: 4px solid transparent;
+}
+
+.second-navbar > li:first-child {
+  margin-left: 40px;
+}
+
+.second-navbar > li:hover {
+  border-bottom: 4px solid #006dac;
+  color: black;
+}
+
+.upload-button {
+  background-image: image_url("cloudupload.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 0;
+  color: transparent;
+}

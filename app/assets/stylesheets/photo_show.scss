@@ -1,0 +1,90 @@
+.photo-show-image-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background: rgb(33, 33, 36);
+  padding: 50px 0;
+  color: white;
+}
+
+.back-to-index {
+  position: absolute;
+  font-size: 17px;
+  left: 20px;
+}
+
+.back-button {
+  position: absolute;
+  font-size: 17px;
+  background: transparent;
+  left: 20px;
+  width: 70px;
+}
+
+.photo-image-container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+}
+
+.photo-show-image {
+  height: 100%;
+}
+
+.photo-info {
+  width: 1060px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-border {
+  padding-right: 30px;
+  border-right: 1px solid rgb(207, 214, 217);
+}
+
+.photo-info-section {
+  border-bottom: 1px solid rgb(207, 214, 217);
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.title-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.edit-button-div {
+  display: flex;
+  align-items: center;
+}
+
+.edit-button {
+  background: #0063dc;
+  color: white;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}

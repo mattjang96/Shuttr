@@ -22,12 +22,11 @@ const logoutCurrentUser = () => {
 }
 
 const receiveErrors = (errors) => {
-    // debugger
     return ({
         type: RECEIVE_SESSION_ERRORS,
         errors
-    });
-};
+    })
+}
 
 const receiveAllUsers = (users) => {
     return ({
@@ -67,7 +66,6 @@ export const logout = () => dispatch => {
 }
 
 export const signup = (user) => dispatch => {
-    // debugger
     return (
         UserAPIUtil.signup(user)
             .then((user) => dispatch(receiveCurrentUser(user)))

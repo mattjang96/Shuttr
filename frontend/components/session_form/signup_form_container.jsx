@@ -4,21 +4,11 @@ import { signup } from '../../actions/session_actions';
 import Signup from './signup';
 import { removeErrors } from '../../actions/session_actions';
 
-// const mapStateToProps = state => {
-const mapStateToProps = ({ errors }) => {
+const mapStateToProps = state => {
     return ({
-        errors: errors.session,
-        // errors: state.errors.session
+        errors: state.errors.session
     });
 };
-
-// const mapStateToProps = ({ errors }) => {
-//     return ({
-//         errors: errors.session,
-//         formType: 'signup',
-//         // navLink: <Link to="/login">log in instead</Link>,
-//     });
-// };
 
 const mapDispatchToProps = dispatch => {
     return ({

@@ -1,0 +1,248 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html, body, div {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding-top: 128px;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: rgba(0,0,0,.20);
+  height: 64px;
+  padding: 0 24px;
+  z-index: 2;
+}
+
+.header1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: rgba(0,0,0,.90);
+  height: 64px;
+  padding: 0 24px;
+  z-index: 2;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-user {
+  color: white;
+}
+
+.navbar-you {
+  color: white;
+  font-size: 16px;
+}
+
+.you-you {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-right: 40px;
+}
+
+.header-list {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.header-list > li {
+  margin-right: 24px;
+  line-height: 64px;
+}
+
+.login-button {
+  color: rgb(255, 255, 255);
+}
+
+.signup-button-div {
+  margin-right: 48px;
+}
+
+.logout-button-div {
+  margin-right: 48px;
+}
+
+.signup-button {
+  background: rgb(255, 255, 255);
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.signup-button:hover {
+  transition: 0.2s;
+  color: gray;
+}
+
+.logout-button {
+  background: rgb(255, 255, 255);
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.splash {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide1, .slide2, .slide3, .slide4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1 {
+  background-image: image_url("tree.jpg");
+  background-size: cover;
+  animation: fade1 36s infinite;
+  -webkit-animation: fade1 36s infinite;
+  z-index: -2;
+}
+
+.slide2 {
+  background-image: image_url("wolf.jpg");
+  background-size: cover;
+  animation: fade2 36s infinite;
+  -webkit-animation: fade2 36s infinite;
+  z-index: -2;
+}
+
+.slide3 {
+  background-image: image_url("aurora.jpg");
+  background-size: cover;
+  animation: fade3 36s infinite;
+  -webkit-animation: fade3 36s infinite;
+  z-index: -2;
+}
+
+.slide4 {
+  background-image: image_url("bird.jpg");
+  background-size: cover;
+  animation: fade4 36s infinite;
+  -webkit-animation: fade4 36s infinite;
+  z-index: -2;
+}
+
+@keyframes fade1 {
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2 {
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade3 {
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+@keyframes fade4 {
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
+  100% { opacity: 0}
+}
+
+.splash-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  height: 300px;
+  position: relative;
+}
+
+.splash-box > h1 {
+  justify-self: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 37.520px;
+  margin-bottom: 5px;
+}
+
+.splash-box > h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  width: 640px;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 50px;
+}
+
+.sign-up {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 18.5px 55.5px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.sign-up:hover {
+  transition: 0.2s;
+  color: gray;
+}

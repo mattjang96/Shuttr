@@ -1,0 +1,98 @@
+.signup-session-form {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: image_url("tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-session-form > form {
+  width: 300px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 1px lightgray;
+}
+
+.signup-session-form > form > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.signup-name {
+  display: flex;
+  justify-content: space-between;
+  width: 290px;
+  margin-bottom: 10px;
+}
+
+.firstname {
+  width: 130px;
+}
+
+.lastname {
+  width: 130px;
+}
+
+.email {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.username {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.password {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+input[type="password"], input[type="text"], input[type="email"] {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.signup-session-form > form > button {
+  bottom: 10px;
+  display: block;
+  width: 245px;
+  height: 24px;
+  background: rgb(18, 143, 220);
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.signup-errors {
+  text-align: center;
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signup-link {
+  color: blue;
+}

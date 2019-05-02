@@ -1,0 +1,85 @@
+.login-session-form {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  background-image: image_url("tree.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-session-form > form {
+  width: 272px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  position: relative;
+  border-radius: 4px;
+}
+
+.login-session-form > form > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.login-username {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 10px;
+  width: 260px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.login-password {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 10px;
+  width: 260px;
+  border-radius: 4px;
+  margin: 10px 10px 20px 10px;
+}
+
+.login-errors {
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  text-align: center;
+  width: 200px;
+}
+
+.login-session-form > form > button {
+  display: block;
+  width: 224px;
+  height: 24px;
+  background: rgb(18, 143, 220);
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.no-account {
+  margin-top: 10px;
+}
+
+.logo {
+  background-image: image_url("fav.png");
+  background-size: cover;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}

@@ -21,18 +21,18 @@ class User < ApplicationRecord
 
   attr_reader :password
 
-  has_many :photos,
-    foreign_key: :owner_id
+  # has_many :photos,
+  #   foreign_key: :owner_id
 
-  has_many :albums,
-    primary_key: :id,
-    foreign_key: :user_id,
-    class_name: "Album"
+  # has_many :albums,
+  #   primary_key: :id,
+  #   foreign_key: :user_id,
+  #   class_name: "Album"
 
-  has_many :comments,
-    primary_key: :id,
-    foreign_key: :user_id,
-    class_name: "Comment"
+  # has_many :comments,
+  #   primary_key: :id,
+  #   foreign_key: :user_id,
+  #   class_name: "Comment"
 
   def self.find_by_credentials(username, password)
     user = User.find_by(username: username)

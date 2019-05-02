@@ -1,0 +1,65 @@
+.user-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // filter: brightness(65%);
+  // background-image: image_url("flowers.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), image_url('flowers.jpg') 100%;
+}
+
+.currentuser-username {
+  position: absolute;
+  left: 250px;
+  bottom: 50px;
+  color: white;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.third-navbar {
+  position: absolute;
+  top: 300px;
+  background: white;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(138, 138, 138, 0.3);
+}
+
+.third-navbar-links {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 150px;
+}
+
+.to-albums {
+  padding: 15px 20px 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.to-albums:hover {
+  border-bottom: 4px solid #006dac;
+  color: black;
+}
+
+.user-photos-index {
+  margin-top: 220px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-albums-index {
+  margin-top: 220px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
