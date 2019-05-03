@@ -42,11 +42,18 @@ class Login extends React.Component {
     }
 
     handleDemo(e) {
-        e.preventDefault();
-        const user = Object.assign({}, { username: "demo", password: "password" });
-        this.props.processForm(user)
-            .then(() => this.props.history.push("/photos"));
+        // e.preventDefault();
+        this.setState({ username: "demo", password: "password" });
+        // this.props.processForm(this.state).then(() => this.props.history.push("/greeting"));
+        // const user = this.setState({ username: "demo", password: "password" });
+        // this.props.processForm(user).then(() => this.props.history.push("/photos") );
     }
+        // , {} => {
+        //     // e.preventDefault();
+        //     const user = Object.assign({}, this.state);
+        //     this.props.processForm(user);
+        // });
+            // .then(() => this.props.history.push("/greeting"));
 
     render() {
         return (
@@ -71,8 +78,8 @@ class Login extends React.Component {
 
                     <button className="login" onClick={this.handleSubmit}>Log In</button>
 
-                    <button className="demo-login" onClick={this.handleDemo}>Demo Log In</button>
-                    <p className="no-account">Don't have an account? <a className="signup-link" href="/#/signup">Sign up.</a></p>
+                    <button className="demo-login" onClick={this.handleDemo}>Demo User</button>
+                    <p className="no-account">Need an account? <a className="signup-link" href="/#/signup">Sign up</a></p>
                 </form>
             </div>
         );
