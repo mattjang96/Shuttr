@@ -6,7 +6,6 @@ class Api::SessionsController < ApplicationController
     @user = User.find_by_credentials(params[:user][:username], params[:user][:password])
     if @user
       login!(@user)
-      # need to specfify route so it knows where to get the user data from
       render "/api/users/show"
     else
       render json: ["Invalid Credentials. Please try again."], status: 401

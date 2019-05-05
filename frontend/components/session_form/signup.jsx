@@ -4,9 +4,9 @@ class Signup extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            email: '',
             fname: '',
             lname: '',
+            email: '',
             username: '',
             password: '',
         };
@@ -27,8 +27,7 @@ class Signup extends React.Component {
     handleSubmit(e) {
         e.preventDefault();
         const user = Object.assign({}, this.state);
-        this.props.createNewUser(user)
-            .then(() => this.props.history.push("/photos"));
+        this.props.createNewUser(user).then(() => this.props.history.push("/photos"));
     }
 
     renderErrors() {
@@ -54,14 +53,14 @@ class Signup extends React.Component {
                         <input type="text"
                             value={this.state.fname}
                             onChange={this.handleInput('fname')}
-                            placeholder="First name"
+                            placeholder="First Name"
                             className="firstname"
                         />
 
                         <input type="text"
                             value={this.state.lname}
                             onChange={this.handleInput('lname')}
-                            placeholder="Last name"
+                            placeholder="Last Name"
                             className="lastname"
                         />
                     </div>
@@ -69,7 +68,7 @@ class Signup extends React.Component {
                     <input type="email"
                         value={this.state.email}
                         onChange={this.handleInput('email')}
-                        placeholder="Your current email address"
+                        placeholder="Your email address"
                         className="email"
                     />
 

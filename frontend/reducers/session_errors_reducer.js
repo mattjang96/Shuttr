@@ -15,8 +15,7 @@ const sessionErrorsReducer = (oldState = [], action) => {
                 return [];
             } else {
                 return action.errors;
-            }
-            
+            }      
             // return [] + action.errors;
             // return action.errors;
         case REMOVE_ERRORS:

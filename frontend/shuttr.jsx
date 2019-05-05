@@ -51,8 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-// import { login } from './actions/session_actions';
 // import * as PhotoAPIUtil from './util/photos_api_util';
 // import { createPhoto } from './actions/photos_actions';
 // import { createPhoto,
