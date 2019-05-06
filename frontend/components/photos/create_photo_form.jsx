@@ -46,11 +46,8 @@ class CreatePhotoForm extends React.Component {
         const formData = new FormData();
         formData.append('photo[title]', this.state.title)
         formData.append('photo[description]', this.state.description)
-        if (this.state.photoFile) {
-            formData.append('photo[image]', this.state.photoFile)
-        }
-        this.props.createPhoto(formData)
-            .then(() => this.props.history.push("/photos"))
+        if (this.state.photoFile) { formData.append('photo[image]', this.state.photoFile) }
+        this.props.createPhoto(formData).then(() => this.props.history.push("/photos"))
     }
 
     renderErrors() {

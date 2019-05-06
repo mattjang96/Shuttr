@@ -6,7 +6,7 @@
 # #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 # #   Character.create(name: 'Luke', movie: movies.first)
 
-# require "open-uri"
+require "open-uri"
 
 # User.destroy_all
 # Photo.destroy_all
@@ -17,41 +17,41 @@
 
 # user = User.create!({
 #   fname: "demo", 
-#   lname: "demo", 
+#   lname: "user", 
 #   username: "demo", 
-#   email: "demo@demo.com", 
+#   email: "demouser@demo.com", 
 #   password: "password"
 # })
 
 # user1 = User.create!({
-#   fname: "Ryan", 
-#   lname: "Mapa", 
-#   username: "ryanmapa", 
-#   email: "ryan@mapa.com", 
+#   fname: "Cynthia", 
+#   lname: "Ma", 
+#   username: "cynthiama", 
+#   email: "cynthia@ma.com", 
 #   password: "password"
 # })
 
 # user2 = User.create!({
-#   fname: "Morgan", 
-#   lname: "Grima", 
-#   username: "Morgan", 
-#   email: "morgan@demo.com", 
+#   fname: "Timothy", 
+#   lname: "Lin", 
+#   username: "limothy", 
+#   email: "timothy@lim.com", 
 #   password: "password"
 # })
 
 # user3 = User.create!({
-#   fname: "Robin", 
-#   lname: "Grima", 
-#   username: "Robin", 
-#   email: "robin@demo.com", 
+#   fname: "Alan", 
+#   lname: "Kwok", 
+#   username: "Kwokster", 
+#   email: "alan@kwok.com", 
 #   password: "password"
 # })
 
 # user4 = User.create!({
-#   fname: "Lucina", 
-#   lname: "Grima", 
-#   username: "Lucina", 
-#   email: "lucina@demo.com", 
+#   fname: "Johnny", 
+#   lname: "Tu", 
+#   username: "TuTu", 
+#   email: "tu@tutu.com", 
 #   password: "password"
 # })
 

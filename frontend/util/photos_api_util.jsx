@@ -39,7 +39,7 @@ export const deletePhoto = (photoId) => {
 }
 
 // testing
-window.createPhoto = createPhoto
+window.createPhoto = createPhoto;
 window.fetchPhoto = fetchPhoto;
 window.fetchPhotos = fetchPhotos;
 window.updatePhoto = updatePhoto;

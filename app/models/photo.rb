@@ -44,7 +44,7 @@ class Photo < ApplicationRecord
 
     def ensure_photo
         unless self.image.attached?
-        errors[:image] << "must be attached"
+        errors[:image] << "has to be attached"
         end
     end
 end
