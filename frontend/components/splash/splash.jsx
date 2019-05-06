@@ -11,9 +11,9 @@ export default () => (
     <div className="splash-box">
       <h1 className="splash-tagline">Find your inspiration.</h1>
       <br/>
-      <h3 className="splash-description">Join the Shuttr community, home to tens of billions of photos and 2 million groups.</h3>
+      <h3 className="splash-description">Join the Shuttr community, home to a handful of photos and a few groups.</h3>
       <br/>
-      <Link to="/signup" className="sign-up">Sign Up</Link>
+      <Link to="/photos" className="sign-up">Explore Photos</Link>
     </div>
   </div>
 )
