@@ -66,13 +66,6 @@ class EditPhotoForm extends React.Component {
                             placeholder={this.props.photo.title}
                         />
 
-                        {/* <input type="text"
-              className="create-photo-description"
-              value={this.state.description}
-              onChange={this.handleInput('description')}
-              placeholder={this.props.photo.description}
-            /> */}
-
                         <textarea
                             className="create-photo-description"
                             value={this.state.description}
@@ -87,12 +80,6 @@ class EditPhotoForm extends React.Component {
                     </div>
 
                     <div className="upload-photo-photo">
-                        {/* <div className="fake-button">Choose photos to upload</div> */}
-
-                        {/* <input type="file"
-              className="choose-file"
-              onChange={this.handleFile}
-            /> */}
                         <div className="preview-img-div">
                             <img className="preview-image" src={this.props.photo.photoUrl} />
                         </div>

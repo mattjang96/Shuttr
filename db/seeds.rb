@@ -160,11 +160,11 @@ photo13.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-see
 photo13.save!
 
 photo14 = Photo.new({
-  title: "Aerial View",
-  description: "Bird's eye view of the city",
-  user: user4,
+  title: "Rolex",
+  description: "My grail watch",
+  user: user2,
 })
-photo14.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/aerial.jpg'), filename: 'aerial.jpg')
+photo14.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/rolex.jpg'), filename: 'rolex.jpg')
 photo14.save!
 
 photo15 = Photo.new({
@@ -192,11 +192,11 @@ photo17.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-see
 photo17.save!
 
 photo18 = Photo.new({
-  title: "Sunshine",
-  description: "Morning sunshine through the window",
+  title: "Tudor",
+  description: "The David Beckham watch",
   user: user4,
 })
-photo18.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/sunshine.jpg'), filename: 'sunshine.jpg')
+photo18.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/tudor.jpg'), filename: 'tudor.jpg')
 photo18.save!
 
 photo19 = Photo.new({
@@ -242,15 +242,48 @@ photo23.save!
 photo24 = Photo.new({
   title: "Forest",
   description: "Great view of the forest",
-  user: user,
+  user: user2,
 })
 photo24.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/forest.jpg'), filename: 'forest.jpg')
 photo24.save!
 
 photo25 = Photo.new({
+  title: "Sunshine",
+  description: "Morning sunshine through the window",
+  user: user4,
+})
+photo25.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/sunshine.jpg'), filename: 'sunshine.jpg')
+photo25.save!
+
+photo26 = Photo.new({
+  title: "NOMOS",
+  description: "My first mechanical watch",
+  user: user1,
+})
+photo26.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/nomos.jpg'), filename: 'nomos.jpg')
+photo26.save!
+
+photo27 = Photo.new({
+  title: "Aerial View",
+  description: "Bird's eye view of the city",
+  user: user4,
+})
+photo27.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/aerial.jpg'), filename: 'aerial.jpg')
+photo27.save!
+
+photo28 = Photo.new({
+  title: "IWC",
+  description: "My dress watch",
+  user: user3,
+})
+photo28.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/iwc.jpg'), filename: 'iwc.jpg')
+photo28.save!
+
+photo29 = Photo.new({
   title: "Lake",
   description: "The lake on a chilly day",
-  user: user,
+  user: user3,
 })
-photo25.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lake.jpg'), filename: 'lake.jpg')
-photo25.save!
+photo29.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lake.jpg'), filename: 'lake.jpg')
+photo29.save!
+

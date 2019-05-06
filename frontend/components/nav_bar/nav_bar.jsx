@@ -5,7 +5,7 @@ export default ({ currentUser, logout }) => {
     const display = currentUser ? (
         <ul className="header-list">
             <li><Link className="upload-button" to="/photos/new">upload</Link></li>
-            <li><p className="to-user">Hello, {currentUser.username}</p></li>
+            <li><p className="to-user">Hello, {currentUser.username}!</p></li>
             <div className="logout-button-div">
                 <li><button className="logout-button" onClick={logout}>Log Out</button></li>
             </div>

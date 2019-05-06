@@ -24,66 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     store = configureStore();
   }
   
-  window.getState = store.getState;
-  window.dispatch = store.dispatch;
-  // window.createAlbum = createAlbum;
-  // window.updateAlbum = updateAlbum;
-  // window.deleteAlbum = deleteAlbum;
-  // window.fetchAlbums = fetchAlbums;
-  // window.fetchAlbum = fetchAlbum;
-  window.login = login;
-  // window.createPhoto = createPhoto;
-  // window.fetchPhoto = fetchPhoto;
-  // window.fetchPhotos = fetchPhotos;
-  // window.updatePhoto = updatePhoto;
-  // window.deletePhoto = deletePhoto;
-  
   ReactDOM.render(<Root store={store} />, root);
   
 });
-
-
-
-
-
-
-
-
-
-
-// import * as PhotoAPIUtil from './util/photos_api_util';
-// import { createPhoto } from './actions/photos_actions';
-// import { createPhoto,
-// fetchPhoto,
-// fetchPhotos,
-// updatePhoto,
-// deletePhoto } from './util/photos_api_util';
-// import {
-//   createPhoto,
-//   fetchPhoto,
-//   fetchPhotos,
-//   updatePhoto,
-//   deletePhoto
-// } from './actions/photos_actions';
-// import {
-//   createAlbum,
-//   deleteAlbum,
-//   updateAlbum,
-//   fetchAlbum,
-//   fetchAlbums,
-// } from './actions/albums_actions';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -34,18 +34,13 @@ class CreatePhotoForm extends React.Component {
         }
     }
 
-    // handleSubmit(e){
-    //   e.preventDefault();
-    //   const photo = Object.assign({}, this.state);
-    //   this.props.createPhoto(photo)
-    //     .then( () => this.props.history.push("/photos"))
-    // }
-
     handleSubmit(e) {
         e.preventDefault();
+        // const photo = Object.assign({}, this.state);
         const formData = new FormData();
         formData.append('photo[title]', this.state.title)
         formData.append('photo[description]', this.state.description)
+        // this.props.createPhoto(photo)
         if (this.state.photoFile) { formData.append('photo[image]', this.state.photoFile) }
         this.props.createPhoto(formData).then(() => this.props.history.push("/photos"))
     }
@@ -75,13 +70,6 @@ class CreatePhotoForm extends React.Component {
                     placeholder="Add a title"
                 />
 
-                {/* <input type="text"
-          className="create-photo-description"
-          value={this.state.description}
-          onChange={this.handleInput('description')}
-          placeholder="Add a description"
-        /> */}
-
                 <textarea
                     className="create-photo-description"
                     value={this.state.description}
@@ -110,20 +98,11 @@ class CreatePhotoForm extends React.Component {
                 </div>
             );
 
-        // const preview = this.state.photoUrl ? <img className="preview-image" src={this.state.photoUrl} /> : null;
         return (
             <div className="upload-photo-div">
                 <form className="upload-photo-form">
-
                     {menuForm}
-
                     {buttonButton}
-
-                    {/* <div className="upload-photo-photo">
-            {preview}
-          </div> */}
-
-                    {/* <button onClick={this.handleSubmit}>Upload photo</button> */}
                 </form>
             </div>
         )
