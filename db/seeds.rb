@@ -56,108 +56,108 @@ user4 = User.create!({
 })
 
 photo1 = Photo.new({
-  title: "dullahan",
-  description: "headless horseman",
+  title: "Apartment",
+  description: "beach house",
   user: user,
 })
-photo1.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/dullahan.jpg'), filename: 'dullahan.jpg')
+photo1.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/apartment.jpg'), filename: 'apartment.jpg')
 photo1.save!
 
-# photo2 = Photo.new({
-#   title: "Cherry Blossoms",
-#   description: "Trip to Japan",
-#   user: user,
-# })
-# photo2.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/cherry_blossoms.jpg'), filename: 'cherry_blossoms.jpg')
-# photo2.save!
+photo2 = Photo.new({
+  title: "Arches",
+  description: "Cathedral",
+  user: user,
+})
+photo2.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/arches.jpg'), filename: 'arches.jpg')
+photo2.save!
 
-# photo3 = Photo.new({
-#   title: "Eagle",
-#   description: "Eagle looking for prey",
-#   user: user,
-# })
-# photo3.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/eagle.jpg'), filename: 'eagle.jpg')
-# photo3.save!
+photo3 = Photo.new({
+  title: "Art Building",
+  description: "Symmetry and organized windows",
+  user: user,
+})
+photo3.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/art_building.jpg'), filename: 'art_building.jpg')
+photo3.save!
 
-# photo4 = Photo.new({
-#   title: "Orange moon",
-#   description: "Very pretty moon",
-#   user: user,
-# })
-# photo4.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/orange_moon.jpg'), filename: 'orange_moon.jpg')
-# photo4.save!
+photo4 = Photo.new({
+  title: "Blueprint",
+  description: "Architect working on a blueprint",
+  user: user,
+})
+photo4.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/blueprint.jpg'), filename: 'blueprint.jpg')
+photo4.save!
 
-# photo5 = Photo.new({
-#   title: "Waterfall into pool",
-#   description: "The water has a nice color",
-#   user: user,
-# })
-# photo5.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/pool.jpg'), filename: 'pool.jpg')
-# photo5.save!
+photo5 = Photo.new({
+  title: "Boardwalk",
+  description: "Black and White photography of my backyard",
+  user: user,
+})
+photo5.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/boardwalk.jpg'), filename: 'boardwalk.jpg')
+photo5.save!
 
-# photo6 = Photo.new({
-#   title: "Blue Butterflies",
-#   description: "A lot of blue butterflies",
-#   user: user4,
-# })
-# photo6.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/butterflies.jpg'), filename: 'butterflies.jpg')
-# photo6.save!
+photo6 = Photo.new({
+  title: "Geometric lines",
+  description: "The line between math and art blends",
+  user: user4,
+})
+photo6.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lines.jpg'), filename: 'lines.jpg')
+photo6.save!
 
-# photo7 = Photo.new({
-#   title: "Lone Butterfly",
-#   description: "A butterfly on the ground",
-#   user: user4,
-# })
-# photo7.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/butterfly.jpg'), filename: 'butterfly.jpg')
-# photo7.save!
+photo7 = Photo.new({
+  title: "Skyscrapers",
+  description: "Ground view of the giants",
+  user: user4,
+})
+photo7.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/skyscrapers.jpg'), filename: 'skyscrapers.jpg')
+photo7.save!
 
-# photo8 = Photo.new({
-#   title: "Center of the world",
-#   description: "Perfectly located sun",
-#   user: user3,
-# })
-# photo8.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/dawn-dusk.jpg'), filename: 'dawn-dusk.jpg')
-# photo8.save!
+photo8 = Photo.new({
+  title: "Fluid building",
+  description: "Building with fluid design",
+  user: user3,
+})
+photo8.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/fluid.jpg'), filename: 'fluid.jpg')
+photo8.save!
 
-# photo9 = Photo.new({
-#   title: "Elephant",
-#   description: "It's looking at us",
-#   user: user1,
-# })
-# photo9.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/elephant.jpg'), filename: 'elephant.jpg')
-# photo9.save!
+photo9 = Photo.new({
+  title: "Mall",
+  description: "Escalators side view",
+  user: user1,
+})
+photo9.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/mall.jpg'), filename: 'mall.jpg')
+photo9.save!
 
-# photo10 = Photo.new({
-#   title: "Goldfish",
-#   description: "Chubby Fishy",
-#   user: user2,
-# })
-# photo10.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/goldfish.jpg'), filename: 'goldfish.jpg')
-# photo10.save!
+photo10 = Photo.new({
+  title: "Reflection",
+  description: "Buildings reflection",
+  user: user2,
+})
+photo10.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/reflect.jpg'), filename: 'reflect.jpg')
+photo10.save!
 
-# photo11 = Photo.new({
-#   title: "Hiking Trip",
-#   description: "The world sure is large",
-#   user: user3,
-# })
-# photo11.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/hiking.jpg'), filename: 'hiking.jpg')
-# photo11.save!
+photo11 = Photo.new({
+  title: "City",
+  description: "The world sure is large",
+  user: user3,
+})
+photo11.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/city.jpg'), filename: 'city.jpg')
+photo11.save!
 
-# photo12 = Photo.new({
-#   title: "Two Koi",
-#   description: "Swimming together",
-#   user: user4,
-# })
-# photo12.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/koi.jpg'), filename: 'koi.jpg')
-# photo12.save!
+photo12 = Photo.new({
+  title: "Living Room",
+  description: "Interior design ideas",
+  user: user4,
+})
+photo12.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/interior.jpg'), filename: 'interior.jpg')
+photo12.save!
 
-# photo13 = Photo.new({
-#   title: "Red Sky Calm Lake",
-#   description: "Thinking about my choices",
-#   user: user3,
-# })
-# photo13.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lake.jpg'), filename: 'lake.jpg')
-# photo13.save!
+photo13 = Photo.new({
+  title: "Colorful buildings",
+  description: "Bright, colorful buildings I came across",
+  user: user3,
+})
+photo13.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/colorful.jpg'), filename: 'colorful.jpg')
+photo13.save!
 
 # photo14 = Photo.new({
 #   title: "Leopard",
