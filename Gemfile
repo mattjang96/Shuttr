@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem "aws-sdk-s3"
+gem "aws-sdk-s3", require: false
 gem 'jquery-rails'
 gem 'turbolinks'
 ruby '2.5.1'

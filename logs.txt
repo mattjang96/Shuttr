@@ -1,0 +1,828 @@
+2019-05-02T00:01:24.211949+00:00 app[api]: Enable Logplex by user mattjang95@gmail.com
+2019-05-02T00:01:24.041244+00:00 app[api]: Release v1 created by user mattjang95@gmail.com
+2019-05-02T00:01:24.211949+00:00 app[api]: Release v2 created by user mattjang95@gmail.com
+2019-05-02T00:01:24.041244+00:00 app[api]: Initial release by user mattjang95@gmail.com
+2019-05-02T00:06:39.775146+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=shuttr.herokuapp.com request_id=b0390636-457a-4c0e-8f76-9bfc84299391 fwd="12.23.56.98" dyno= connect= service= status=502 bytes= protocol=https
+2019-05-02T00:13:10.000000+00:00 app[api]: Build started by user mattjang95@gmail.com
+2019-05-02T00:14:54.964077+00:00 app[api]: Set LANG, RACK_ENV, RAILS_ENV, RAILS_LOG_TO_STDOUT, RAILS_SERVE_STATIC_FILES, SECRET_KEY_BASE config vars by user mattjang95@gmail.com
+2019-05-02T00:14:54.964077+00:00 app[api]: Release v3 created by user mattjang95@gmail.com
+2019-05-02T00:14:56.040530+00:00 app[api]: Attach DATABASE (@ref:postgresql-cylindrical-55466) by user mattjang95@gmail.com
+2019-05-02T00:14:56.040530+00:00 app[api]: Running release v4 commands by user mattjang95@gmail.com
+2019-05-02T00:14:56.057532+00:00 app[api]: @ref:postgresql-cylindrical-55466 completed provisioning, setting DATABASE_URL. by user mattjang95@gmail.com
+2019-05-02T00:14:56.057532+00:00 app[api]: Release v5 created by user mattjang95@gmail.com
+2019-05-02T00:14:56.434073+00:00 app[api]: Deploy 178ada4c by user mattjang95@gmail.com
+2019-05-02T00:14:56.434073+00:00 app[api]: Release v6 created by user mattjang95@gmail.com
+2019-05-02T00:14:56.452461+00:00 app[api]: Scaled to console@0:Free rake@0:Free web@1:Free by user mattjang95@gmail.com
+2019-05-02T00:15:02.298134+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 16974 -e production`
+2019-05-02T00:15:01.000000+00:00 app[api]: Build succeeded
+2019-05-02T00:15:06.745942+00:00 heroku[web.1]: State changed from starting to up
+2019-05-02T00:17:19.083248+00:00 heroku[router]: at=info method=GET path="/assets/application-a67f959ee6397910262cd7f7339a94e62dd91452086d1eee3a7dca3526f5f7d3.js" host=shuttr.herokuapp.com request_id=9de9cd54-53ae-4c2e-ae6d-6ed15f1acbb9 fwd="12.23.56.98" dyno=web.1 connect=0ms service=6ms status=200 bytes=102379 protocol=https
+2019-05-02T00:17:18.960674+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=06ea2e6d-894a-4f82-b7b1-d0540d5d8b54 fwd="12.23.56.98" dyno=web.1 connect=0ms service=23ms status=200 bytes=1332 protocol=https
+2019-05-02T00:17:19.078389+00:00 heroku[router]: at=info method=GET path="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" host=shuttr.herokuapp.com request_id=2ab77857-1940-4e31-a887-ada3577f4f54 fwd="12.23.56.98" dyno=web.1 connect=0ms service=4ms status=200 bytes=195 protocol=https
+2019-05-02T00:17:18.942670+00:00 app[web.1]: => Booting Puma
+2019-05-02T00:17:18.942708+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-02T00:17:18.942711+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-02T00:17:18.942712+00:00 app[web.1]: Puma starting in single mode...
+2019-05-02T00:17:18.942714+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-02T00:17:18.942716+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-02T00:17:18.942717+00:00 app[web.1]: * Environment: production
+2019-05-02T00:17:18.942719+00:00 app[web.1]: * Listening on tcp://0.0.0.0:16974
+2019-05-02T00:17:18.942720+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-02T00:17:18.942727+00:00 app[web.1]: I, [2019-05-02T00:17:18.942548 #4]  INFO -- : [06ea2e6d-894a-4f82-b7b1-d0540d5d8b54] Started GET "/" for 12.23.56.98 at 2019-05-02 00:17:18 +0000
+2019-05-02T00:17:18.943897+00:00 app[web.1]: I, [2019-05-02T00:17:18.943807 #4]  INFO -- : [06ea2e6d-894a-4f82-b7b1-d0540d5d8b54] Processing by StaticPagesController#root as HTML
+2019-05-02T00:17:18.955784+00:00 app[web.1]: I, [2019-05-02T00:17:18.955647 #4]  INFO -- : [06ea2e6d-894a-4f82-b7b1-d0540d5d8b54]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-02T00:17:18.957282+00:00 app[web.1]: I, [2019-05-02T00:17:18.957169 #4]  INFO -- : [06ea2e6d-894a-4f82-b7b1-d0540d5d8b54]   Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+2019-05-02T00:17:18.959299+00:00 app[web.1]: I, [2019-05-02T00:17:18.959197 #4]  INFO -- : [06ea2e6d-894a-4f82-b7b1-d0540d5d8b54] Completed 200 OK in 14ms (Views: 6.0ms)
+2019-05-02T00:17:19.965696+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=10a5cbc6-5c34-40d0-ac62-3263c1b9c72e fwd="12.23.56.98" dyno=web.1 connect=0ms service=3ms status=200 bytes=143 protocol=https
+2019-05-02T00:20:53.333564+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=e326e622-bbc5-484b-bc64-e5303c9653c7 fwd="12.23.56.98" dyno=web.1 connect=1ms service=5ms status=304 bytes=48 protocol=https
+2019-05-02T00:20:58.205490+00:00 app[web.1]: I, [2019-05-02T00:20:58.205363 #4]  INFO -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801] Started POST "/api/users" for 12.23.56.98 at 2019-05-02 00:20:58 +0000
+2019-05-02T00:20:58.206589+00:00 app[web.1]: I, [2019-05-02T00:20:58.206503 #4]  INFO -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801] Processing by Api::UsersController#create as JSON
+2019-05-02T00:20:58.206861+00:00 app[web.1]: I, [2019-05-02T00:20:58.206788 #4]  INFO -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801]   Parameters: {"user"=>{"username"=>"mattyj", "password"=>"[FILTERED]"}}
+2019-05-02T00:20:58.262662+00:00 app[web.1]: I, [2019-05-02T00:20:58.262468 #4]  INFO -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801] Completed 500 Internal Server Error in 55ms (ActiveRecord: 26.3ms)
+2019-05-02T00:20:58.267948+00:00 app[web.1]: F, [2019-05-02T00:20:58.267613 #4] FATAL -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801]
+2019-05-02T00:20:58.269276+00:00 app[web.1]: F, [2019-05-02T00:20:58.269144 #4] FATAL -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801] ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-02T00:20:58.269279+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-02T00:20:58.269282+00:00 app[web.1]: ^
+2019-05-02T00:20:58.269283+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-02T00:20:58.269285+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-02T00:20:58.269287+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-02T00:20:58.269289+00:00 app[web.1]: FROM pg_attribute a
+2019-05-02T00:20:58.269290+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-02T00:20:58.269292+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-02T00:20:58.269294+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-02T00:20:58.269295+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-02T00:20:58.269297+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-02T00:20:58.269298+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-02T00:20:58.269300+00:00 app[web.1]: ):
+2019-05-02T00:20:58.269366+00:00 app[web.1]: F, [2019-05-02T00:20:58.269276 #4] FATAL -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801]
+2019-05-02T00:20:58.269472+00:00 app[web.1]: F, [2019-05-02T00:20:58.269388 #4] FATAL -- : [91bd86af-3a84-4695-bfc2-5ad621d4a801] app/controllers/api/users_controller.rb:3:in `create'
+2019-05-02T00:20:58.274196+00:00 heroku[router]: at=info method=POST path="/api/users" host=shuttr.herokuapp.com request_id=91bd86af-3a84-4695-bfc2-5ad621d4a801 fwd="12.23.56.98" dyno=web.1 connect=1ms service=81ms status=500 bytes=243 protocol=https
+2019-05-02T00:53:29.260707+00:00 heroku[web.1]: Idling
+2019-05-02T00:53:29.263722+00:00 heroku[web.1]: State changed from up to down
+2019-05-02T00:53:30.588642+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-02T00:53:30.593799+00:00 app[web.1]: === puma shutdown: 2019-05-02 00:53:30 +0000 ===
+2019-05-02T00:53:30.593850+00:00 app[web.1]: - Goodbye!
+2019-05-02T00:53:30.594011+00:00 app[web.1]: Exiting
+2019-05-02T00:53:30.562362+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-02T00:53:30.692507+00:00 heroku[web.1]: Process exited with status 143
+2019-05-02T21:58:13.502043+00:00 heroku[web.1]: Unidling
+2019-05-02T21:58:13.518445+00:00 heroku[web.1]: State changed from down to starting
+2019-05-02T21:58:20.041279+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 13761 -e production`
+2019-05-02T21:58:25.028992+00:00 heroku[web.1]: State changed from starting to up
+2019-05-02T21:58:27.606604+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=1b593e54-c983-4b9b-a2d0-961f4f29e0b8 fwd="12.23.56.98" dyno=web.1 connect=0ms service=18ms status=200 bytes=1328 protocol=https
+2019-05-02T21:58:27.586874+00:00 app[web.1]: => Booting Puma
+2019-05-02T21:58:27.586906+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-02T21:58:27.586909+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-02T21:58:27.586915+00:00 app[web.1]: Puma starting in single mode...
+2019-05-02T21:58:27.586917+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-02T21:58:27.586922+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-02T21:58:27.586924+00:00 app[web.1]: * Environment: production
+2019-05-02T21:58:27.586925+00:00 app[web.1]: * Listening on tcp://0.0.0.0:13761
+2019-05-02T21:58:27.586927+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-02T21:58:27.586933+00:00 app[web.1]: I, [2019-05-02T21:58:27.586743 #4]  INFO -- : [1b593e54-c983-4b9b-a2d0-961f4f29e0b8] Started GET "/" for 12.23.56.98 at 2019-05-02 21:58:27 +0000
+2019-05-02T21:58:27.587973+00:00 app[web.1]: I, [2019-05-02T21:58:27.587891 #4]  INFO -- : [1b593e54-c983-4b9b-a2d0-961f4f29e0b8] Processing by StaticPagesController#root as HTML
+2019-05-02T21:58:27.598270+00:00 app[web.1]: I, [2019-05-02T21:58:27.598123 #4]  INFO -- : [1b593e54-c983-4b9b-a2d0-961f4f29e0b8]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-02T21:58:27.599106+00:00 app[web.1]: I, [2019-05-02T21:58:27.599004 #4]  INFO -- : [1b593e54-c983-4b9b-a2d0-961f4f29e0b8]   Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+2019-05-02T21:58:27.600982+00:00 app[web.1]: I, [2019-05-02T21:58:27.600896 #4]  INFO -- : [1b593e54-c983-4b9b-a2d0-961f4f29e0b8] Completed 200 OK in 13ms (Views: 5.2ms)
+2019-05-02T21:58:27.824595+00:00 heroku[router]: at=info method=GET path="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" host=shuttr.herokuapp.com request_id=d87933e8-8700-4805-8b6c-dff7d594133c fwd="12.23.56.98" dyno=web.1 connect=2ms service=8ms status=304 bytes=48 protocol=https
+2019-05-02T21:58:27.904056+00:00 heroku[router]: at=info method=GET path="/assets/application-a67f959ee6397910262cd7f7339a94e62dd91452086d1eee3a7dca3526f5f7d3.js" host=shuttr.herokuapp.com request_id=6073c9dd-5654-496c-9582-164e1bb83888 fwd="12.23.56.98" dyno=web.1 connect=1ms service=3ms status=304 bytes=48 protocol=https
+2019-05-02T21:58:28.921982+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=5a359334-adcf-49cd-b261-c0812a8bdf63 fwd="12.23.56.98" dyno=web.1 connect=0ms service=1ms status=304 bytes=48 protocol=https
+2019-05-02T22:31:46.092677+00:00 heroku[web.1]: Idling
+2019-05-02T22:31:46.098169+00:00 heroku[web.1]: State changed from up to down
+2019-05-02T22:31:47.090002+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-02T22:31:47.116392+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-02T22:31:47.133008+00:00 app[web.1]: === puma shutdown: 2019-05-02 22:31:47 +0000 ===
+2019-05-02T22:31:47.133417+00:00 app[web.1]: - Goodbye!
+2019-05-02T22:31:47.133949+00:00 app[web.1]: Exiting
+2019-05-02T22:31:47.369091+00:00 heroku[web.1]: Process exited with status 143
+2019-05-03T17:44:51.636432+00:00 heroku[web.1]: Unidling
+2019-05-03T17:44:51.642926+00:00 heroku[web.1]: State changed from down to starting
+2019-05-03T17:44:59.518971+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 49032 -e production`
+2019-05-03T17:45:08.079213+00:00 heroku[web.1]: State changed from starting to up
+2019-05-03T17:45:09.764396+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=2d7dd504-b8a3-46bc-a4c4-6122f1057975 fwd="12.23.56.98" dyno=web.1 connect=1ms service=21ms status=200 bytes=1336 protocol=https
+2019-05-03T17:45:09.926927+00:00 heroku[router]: at=info method=GET path="/assets/application-a67f959ee6397910262cd7f7339a94e62dd91452086d1eee3a7dca3526f5f7d3.js" host=shuttr.herokuapp.com request_id=0eff7737-c4b6-4d4d-b9f8-b8663f5717a9 fwd="12.23.56.98" dyno=web.1 connect=1ms service=9ms status=200 bytes=102379 protocol=https
+2019-05-03T17:45:09.750341+00:00 app[web.1]: => Booting Puma
+2019-05-03T17:45:09.750372+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-03T17:45:09.750374+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-03T17:45:09.750381+00:00 app[web.1]: Puma starting in single mode...
+2019-05-03T17:45:09.750382+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-03T17:45:09.750389+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-03T17:45:09.750391+00:00 app[web.1]: * Environment: production
+2019-05-03T17:45:09.750392+00:00 app[web.1]: * Listening on tcp://0.0.0.0:49032
+2019-05-03T17:45:09.750394+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-03T17:45:09.750404+00:00 app[web.1]: I, [2019-05-03T17:45:09.750180 #4]  INFO -- : [2d7dd504-b8a3-46bc-a4c4-6122f1057975] Started GET "/" for 12.23.56.98 at 2019-05-03 17:45:09 +0000
+2019-05-03T17:45:09.751668+00:00 app[web.1]: I, [2019-05-03T17:45:09.751560 #4]  INFO -- : [2d7dd504-b8a3-46bc-a4c4-6122f1057975] Processing by StaticPagesController#root as HTML
+2019-05-03T17:45:09.761438+00:00 app[web.1]: I, [2019-05-03T17:45:09.761338 #4]  INFO -- : [2d7dd504-b8a3-46bc-a4c4-6122f1057975]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:45:09.762115+00:00 app[web.1]: I, [2019-05-03T17:45:09.762042 #4]  INFO -- : [2d7dd504-b8a3-46bc-a4c4-6122f1057975]   Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+2019-05-03T17:45:09.763312+00:00 app[web.1]: I, [2019-05-03T17:45:09.763217 #4]  INFO -- : [2d7dd504-b8a3-46bc-a4c4-6122f1057975] Completed 200 OK in 11ms (Views: 3.6ms)
+2019-05-03T17:45:10.136341+00:00 heroku[router]: at=info method=GET path="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" host=shuttr.herokuapp.com request_id=798cad06-7bce-44c2-97e7-10757b8e596e fwd="12.23.56.98" dyno=web.1 connect=0ms service=5ms status=304 bytes=48 protocol=https
+2019-05-03T17:45:11.718012+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=bf944625-abe4-425a-ace0-cfd5d2e6dbb9 fwd="12.23.56.98" dyno=web.1 connect=1ms service=2ms status=304 bytes=48 protocol=https
+2019-05-03T17:48:22.000000+00:00 app[api]: Build started by user mattjang95@gmail.com
+2019-05-03T17:49:25.428964+00:00 heroku[web.1]: Restarting
+2019-05-03T17:49:25.458530+00:00 heroku[web.1]: State changed from up to starting
+2019-05-03T17:49:26.546357+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-03T17:49:26.566916+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-03T17:49:26.602450+00:00 app[web.1]: === puma shutdown: 2019-05-03 17:49:26 +0000 ===
+2019-05-03T17:49:26.602457+00:00 app[web.1]: - Goodbye!
+2019-05-03T17:49:26.602514+00:00 app[web.1]: Exiting
+2019-05-03T17:49:26.727058+00:00 heroku[web.1]: Process exited with status 143
+2019-05-03T17:49:25.175944+00:00 app[api]: Release v7 created by user mattjang95@gmail.com
+2019-05-03T17:49:25.175944+00:00 app[api]: Deploy 0702882c by user mattjang95@gmail.com
+2019-05-03T17:49:30.000000+00:00 app[api]: Build succeeded
+2019-05-03T17:49:45.554053+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 26190 -e production`
+2019-05-03T17:49:53.366235+00:00 heroku[web.1]: State changed from starting to up
+2019-05-03T17:49:55.961322+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=aae6ecde-6d7c-4da8-8e51-43cef4dbad3c fwd="12.23.56.98" dyno=web.1 connect=1ms service=142ms status=500 bytes=1827 protocol=https
+2019-05-03T17:49:55.819302+00:00 app[web.1]: => Booting Puma
+2019-05-03T17:49:55.819327+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-03T17:49:55.819329+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-03T17:49:55.819336+00:00 app[web.1]: Puma starting in single mode...
+2019-05-03T17:49:55.819338+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-03T17:49:55.819343+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-03T17:49:55.819344+00:00 app[web.1]: * Environment: production
+2019-05-03T17:49:55.819345+00:00 app[web.1]: * Listening on tcp://0.0.0.0:26190
+2019-05-03T17:49:55.819347+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-03T17:49:55.819351+00:00 app[web.1]: I, [2019-05-03T17:49:55.819157 #4]  INFO -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] Started GET "/" for 12.23.56.98 at 2019-05-03 17:49:55 +0000
+2019-05-03T17:49:55.820187+00:00 app[web.1]: I, [2019-05-03T17:49:55.820114 #4]  INFO -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] Processing by StaticPagesController#root as HTML
+2019-05-03T17:49:55.828546+00:00 app[web.1]: I, [2019-05-03T17:49:55.828434 #4]  INFO -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:49:55.955909+00:00 app[web.1]: I, [2019-05-03T17:49:55.955785 #4]  INFO -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]   Rendered static_pages/root.html.erb within layouts/application (127.2ms)
+2019-05-03T17:49:55.956103+00:00 app[web.1]: I, [2019-05-03T17:49:55.956033 #4]  INFO -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] Completed 500 Internal Server Error in 136ms (ActiveRecord: 83.0ms)
+2019-05-03T17:49:55.956880+00:00 app[web.1]: F, [2019-05-03T17:49:55.956776 #4] FATAL -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]
+2019-05-03T17:49:55.956953+00:00 app[web.1]: F, [2019-05-03T17:49:55.956878 #4] FATAL -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:49:55.956955+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:49:55.956957+00:00 app[web.1]: ^
+2019-05-03T17:49:55.956964+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:49:55.956966+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:49:55.956967+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:49:55.956969+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:49:55.956971+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:49:55.956973+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:49:55.956979+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:49:55.956981+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:49:55.956983+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:49:55.956985+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:49:55.956987+00:00 app[web.1]: ):
+2019-05-03T17:49:55.957087+00:00 app[web.1]: F, [2019-05-03T17:49:55.957027 #4] FATAL -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]     1: <% if logged_in? %>
+2019-05-03T17:49:55.957089+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:49:55.957101+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:49:55.957102+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]     4:   		user: current_user).html_safe %>
+2019-05-03T17:49:55.957134+00:00 app[web.1]: F, [2019-05-03T17:49:55.957081 #4] FATAL -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c]
+2019-05-03T17:49:55.957194+00:00 app[web.1]: F, [2019-05-03T17:49:55.957135 #4] FATAL -- : [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:49:55.957196+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:49:55.957197+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:49:55.957199+00:00 app[web.1]: [aae6ecde-6d7c-4da8-8e51-43cef4dbad3c] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:50:15.290674+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=3d3746ad-2f1f-472f-8b41-99123d450247 fwd="12.23.56.98" dyno=web.1 connect=1ms service=94ms status=500 bytes=1827 protocol=https
+2019-05-03T17:50:15.232741+00:00 app[web.1]: I, [2019-05-03T17:50:15.232623 #4]  INFO -- : [3d3746ad-2f1f-472f-8b41-99123d450247] Started GET "/" for 12.23.56.98 at 2019-05-03 17:50:15 +0000
+2019-05-03T17:50:15.233678+00:00 app[web.1]: I, [2019-05-03T17:50:15.233595 #4]  INFO -- : [3d3746ad-2f1f-472f-8b41-99123d450247] Processing by StaticPagesController#root as HTML
+2019-05-03T17:50:15.237139+00:00 app[web.1]: I, [2019-05-03T17:50:15.237056 #4]  INFO -- : [3d3746ad-2f1f-472f-8b41-99123d450247]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:50:15.269905+00:00 app[web.1]: I, [2019-05-03T17:50:15.269737 #4]  INFO -- : [3d3746ad-2f1f-472f-8b41-99123d450247]   Rendered static_pages/root.html.erb within layouts/application (32.4ms)
+2019-05-03T17:50:15.270211+00:00 app[web.1]: I, [2019-05-03T17:50:15.270133 #4]  INFO -- : [3d3746ad-2f1f-472f-8b41-99123d450247] Completed 500 Internal Server Error in 34ms (ActiveRecord: 21.7ms)
+2019-05-03T17:50:15.282099+00:00 app[web.1]: F, [2019-05-03T17:50:15.281739 #4] FATAL -- : [3d3746ad-2f1f-472f-8b41-99123d450247]
+2019-05-03T17:50:15.282399+00:00 app[web.1]: F, [2019-05-03T17:50:15.282311 #4] FATAL -- : [3d3746ad-2f1f-472f-8b41-99123d450247] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:50:15.282402+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:50:15.282404+00:00 app[web.1]: ^
+2019-05-03T17:50:15.282406+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:50:15.282408+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:50:15.282410+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:50:15.282411+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:50:15.282413+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:50:15.282415+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:50:15.282417+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:50:15.282418+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:50:15.282420+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:50:15.282422+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:50:15.282423+00:00 app[web.1]: ):
+2019-05-03T17:50:15.285664+00:00 app[web.1]: F, [2019-05-03T17:50:15.285578 #4] FATAL -- : [3d3746ad-2f1f-472f-8b41-99123d450247]     1: <% if logged_in? %>
+2019-05-03T17:50:15.285667+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:50:15.285671+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:50:15.285673+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247]     4:   		user: current_user).html_safe %>
+2019-05-03T17:50:15.285963+00:00 app[web.1]: F, [2019-05-03T17:50:15.285655 #4] FATAL -- : [3d3746ad-2f1f-472f-8b41-99123d450247]
+2019-05-03T17:50:15.285966+00:00 app[web.1]: F, [2019-05-03T17:50:15.285725 #4] FATAL -- : [3d3746ad-2f1f-472f-8b41-99123d450247] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:50:15.285968+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:50:15.285969+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:50:15.285971+00:00 app[web.1]: [3d3746ad-2f1f-472f-8b41-99123d450247] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:51:10.994159+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=12781677-19b4-4413-9439-996a326daaa7 fwd="12.23.56.98" dyno=web.1 connect=1ms service=11ms status=500 bytes=1827 protocol=https
+2019-05-03T17:51:10.982390+00:00 app[web.1]: I, [2019-05-03T17:51:10.982266 #4]  INFO -- : [12781677-19b4-4413-9439-996a326daaa7] Started GET "/" for 12.23.56.98 at 2019-05-03 17:51:10 +0000
+2019-05-03T17:51:10.983332+00:00 app[web.1]: I, [2019-05-03T17:51:10.983242 #4]  INFO -- : [12781677-19b4-4413-9439-996a326daaa7] Processing by StaticPagesController#root as HTML
+2019-05-03T17:51:10.984338+00:00 app[web.1]: I, [2019-05-03T17:51:10.984263 #4]  INFO -- : [12781677-19b4-4413-9439-996a326daaa7]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:51:10.988401+00:00 app[web.1]: I, [2019-05-03T17:51:10.988254 #4]  INFO -- : [12781677-19b4-4413-9439-996a326daaa7]   Rendered static_pages/root.html.erb within layouts/application (3.9ms)
+2019-05-03T17:51:10.988750+00:00 app[web.1]: I, [2019-05-03T17:51:10.988618 #4]  INFO -- : [12781677-19b4-4413-9439-996a326daaa7] Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.8ms)
+2019-05-03T17:51:10.989874+00:00 app[web.1]: F, [2019-05-03T17:51:10.989802 #4] FATAL -- : [12781677-19b4-4413-9439-996a326daaa7]
+2019-05-03T17:51:10.989953+00:00 app[web.1]: F, [2019-05-03T17:51:10.989871 #4] FATAL -- : [12781677-19b4-4413-9439-996a326daaa7] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:51:10.989955+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:51:10.989957+00:00 app[web.1]: ^
+2019-05-03T17:51:10.989960+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:51:10.989962+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:51:10.989964+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:51:10.989965+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:51:10.989967+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:51:10.989968+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:51:10.989976+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:51:10.989978+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:51:10.989979+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:51:10.989981+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:51:10.989983+00:00 app[web.1]: ):
+2019-05-03T17:51:10.990158+00:00 app[web.1]: F, [2019-05-03T17:51:10.990071 #4] FATAL -- : [12781677-19b4-4413-9439-996a326daaa7]     1: <% if logged_in? %>
+2019-05-03T17:51:10.990160+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:51:10.990165+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:51:10.990167+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7]     4:   		user: current_user).html_safe %>
+2019-05-03T17:51:10.990237+00:00 app[web.1]: F, [2019-05-03T17:51:10.990159 #4] FATAL -- : [12781677-19b4-4413-9439-996a326daaa7]
+2019-05-03T17:51:10.990327+00:00 app[web.1]: F, [2019-05-03T17:51:10.990249 #4] FATAL -- : [12781677-19b4-4413-9439-996a326daaa7] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:51:10.990329+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:51:10.990331+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:51:10.990333+00:00 app[web.1]: [12781677-19b4-4413-9439-996a326daaa7] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:52:00.067976+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=707e6d09-6745-4716-b0bf-e4af857b327c fwd="12.23.56.98" dyno=web.1 connect=21ms service=34ms status=500 bytes=1827 protocol=https
+2019-05-03T17:52:00.044280+00:00 app[web.1]: I, [2019-05-03T17:52:00.044119 #4]  INFO -- : [707e6d09-6745-4716-b0bf-e4af857b327c] Started GET "/" for 12.23.56.98 at 2019-05-03 17:52:00 +0000
+2019-05-03T17:52:00.046855+00:00 app[web.1]: I, [2019-05-03T17:52:00.046715 #4]  INFO -- : [707e6d09-6745-4716-b0bf-e4af857b327c] Processing by StaticPagesController#root as HTML
+2019-05-03T17:52:00.049221+00:00 app[web.1]: I, [2019-05-03T17:52:00.049070 #4]  INFO -- : [707e6d09-6745-4716-b0bf-e4af857b327c]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:52:00.057523+00:00 app[web.1]: I, [2019-05-03T17:52:00.057393 #4]  INFO -- : [707e6d09-6745-4716-b0bf-e4af857b327c]   Rendered static_pages/root.html.erb within layouts/application (8.1ms)
+2019-05-03T17:52:00.058652+00:00 app[web.1]: I, [2019-05-03T17:52:00.058168 #4]  INFO -- : [707e6d09-6745-4716-b0bf-e4af857b327c] Completed 500 Internal Server Error in 11ms (ActiveRecord: 4.5ms)
+2019-05-03T17:52:00.062257+00:00 app[web.1]: F, [2019-05-03T17:52:00.061795 #4] FATAL -- : [707e6d09-6745-4716-b0bf-e4af857b327c]
+2019-05-03T17:52:00.062354+00:00 app[web.1]: F, [2019-05-03T17:52:00.062275 #4] FATAL -- : [707e6d09-6745-4716-b0bf-e4af857b327c] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:52:00.062358+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:52:00.062361+00:00 app[web.1]: ^
+2019-05-03T17:52:00.062364+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:52:00.062366+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:52:00.062368+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:52:00.062369+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:52:00.062371+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:52:00.062373+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:52:00.062376+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:52:00.062377+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:52:00.062379+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:52:00.062381+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:52:00.062384+00:00 app[web.1]: ):
+2019-05-03T17:52:00.062960+00:00 app[web.1]: F, [2019-05-03T17:52:00.062665 #4] FATAL -- : [707e6d09-6745-4716-b0bf-e4af857b327c]     1: <% if logged_in? %>
+2019-05-03T17:52:00.062963+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:52:00.062966+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:52:00.062968+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c]     4:   		user: current_user).html_safe %>
+2019-05-03T17:52:00.063048+00:00 app[web.1]: F, [2019-05-03T17:52:00.062960 #4] FATAL -- : [707e6d09-6745-4716-b0bf-e4af857b327c]
+2019-05-03T17:52:00.063194+00:00 app[web.1]: F, [2019-05-03T17:52:00.063113 #4] FATAL -- : [707e6d09-6745-4716-b0bf-e4af857b327c] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:52:00.063197+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:52:00.063198+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:52:00.063200+00:00 app[web.1]: [707e6d09-6745-4716-b0bf-e4af857b327c] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:53:30.067866+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=8adfed2f-c3bc-4ad1-890a-7fd1954f5548 fwd="12.23.56.98" dyno=web.1 connect=13ms service=37ms status=500 bytes=1827 protocol=https
+2019-05-03T17:53:30.039855+00:00 app[web.1]: I, [2019-05-03T17:53:30.039747 #4]  INFO -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] Started GET "/" for 12.23.56.98 at 2019-05-03 17:53:30 +0000
+2019-05-03T17:53:30.040624+00:00 app[web.1]: I, [2019-05-03T17:53:30.040501 #4]  INFO -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] Processing by StaticPagesController#root as HTML
+2019-05-03T17:53:30.041473+00:00 app[web.1]: I, [2019-05-03T17:53:30.041398 #4]  INFO -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:53:30.064782+00:00 app[web.1]: I, [2019-05-03T17:53:30.064679 #4]  INFO -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]   Rendered static_pages/root.html.erb within layouts/application (23.2ms)
+2019-05-03T17:53:30.064962+00:00 app[web.1]: I, [2019-05-03T17:53:30.064876 #4]  INFO -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] Completed 500 Internal Server Error in 24ms (ActiveRecord: 12.9ms)
+2019-05-03T17:53:30.065576+00:00 app[web.1]: F, [2019-05-03T17:53:30.065517 #4] FATAL -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]
+2019-05-03T17:53:30.065634+00:00 app[web.1]: F, [2019-05-03T17:53:30.065578 #4] FATAL -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:53:30.065636+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:53:30.065637+00:00 app[web.1]: ^
+2019-05-03T17:53:30.065639+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:53:30.065640+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:53:30.065641+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:53:30.065643+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:53:30.065644+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:53:30.065645+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:53:30.065647+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:53:30.065648+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:53:30.065649+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:53:30.065650+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:53:30.065652+00:00 app[web.1]: ):
+2019-05-03T17:53:30.065790+00:00 app[web.1]: F, [2019-05-03T17:53:30.065731 #4] FATAL -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]     1: <% if logged_in? %>
+2019-05-03T17:53:30.065792+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:53:30.065793+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:53:30.065795+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]     4:   		user: current_user).html_safe %>
+2019-05-03T17:53:30.065838+00:00 app[web.1]: F, [2019-05-03T17:53:30.065789 #4] FATAL -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548]
+2019-05-03T17:53:30.065892+00:00 app[web.1]: F, [2019-05-03T17:53:30.065847 #4] FATAL -- : [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:53:30.065894+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:53:30.065895+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:53:30.065896+00:00 app[web.1]: [8adfed2f-c3bc-4ad1-890a-7fd1954f5548] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:53:30.260048+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=7ac90638-3cd9-429f-8e01-1331289c74db fwd="12.23.56.98" dyno=web.1 connect=19ms service=5ms status=200 bytes=143 protocol=https
+2019-05-03T17:56:22.837156+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=e69a1e81-d783-4529-b5b1-b8f7e4392ec3 fwd="12.23.56.98" dyno=web.1 connect=0ms service=11ms status=500 bytes=1827 protocol=https
+2019-05-03T17:56:22.826264+00:00 app[web.1]: I, [2019-05-03T17:56:22.826113 #4]  INFO -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] Started GET "/" for 12.23.56.98 at 2019-05-03 17:56:22 +0000
+2019-05-03T17:56:22.827222+00:00 app[web.1]: I, [2019-05-03T17:56:22.827119 #4]  INFO -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] Processing by StaticPagesController#root as HTML
+2019-05-03T17:56:22.828382+00:00 app[web.1]: I, [2019-05-03T17:56:22.828295 #4]  INFO -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T17:56:22.832468+00:00 app[web.1]: I, [2019-05-03T17:56:22.832378 #4]  INFO -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]   Rendered static_pages/root.html.erb within layouts/application (3.9ms)
+2019-05-03T17:56:22.832700+00:00 app[web.1]: I, [2019-05-03T17:56:22.832619 #4]  INFO -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] Completed 500 Internal Server Error in 5ms (ActiveRecord: 2.2ms)
+2019-05-03T17:56:22.834077+00:00 app[web.1]: F, [2019-05-03T17:56:22.833994 #4] FATAL -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]
+2019-05-03T17:56:22.834171+00:00 app[web.1]: F, [2019-05-03T17:56:22.834094 #4] FATAL -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T17:56:22.834173+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:56:22.834175+00:00 app[web.1]: ^
+2019-05-03T17:56:22.834177+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T17:56:22.834179+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T17:56:22.834180+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T17:56:22.834181+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T17:56:22.834182+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T17:56:22.834184+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T17:56:22.834186+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T17:56:22.834187+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T17:56:22.834188+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T17:56:22.834189+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T17:56:22.834191+00:00 app[web.1]: ):
+2019-05-03T17:56:22.834365+00:00 app[web.1]: F, [2019-05-03T17:56:22.834291 #4] FATAL -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]     1: <% if logged_in? %>
+2019-05-03T17:56:22.834368+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T17:56:22.834371+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T17:56:22.834373+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]     4:   		user: current_user).html_safe %>
+2019-05-03T17:56:22.834487+00:00 app[web.1]: F, [2019-05-03T17:56:22.834399 #4] FATAL -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3]
+2019-05-03T17:56:22.834569+00:00 app[web.1]: F, [2019-05-03T17:56:22.834498 #4] FATAL -- : [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T17:56:22.834570+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T17:56:22.834572+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T17:56:22.834573+00:00 app[web.1]: [e69a1e81-d783-4529-b5b1-b8f7e4392ec3] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T17:56:23.117668+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=88144353-af3a-4d7b-850c-9ab1409f8322 fwd="12.23.56.98" dyno=web.1 connect=0ms service=2ms status=304 bytes=48 protocol=https
+2019-05-03T18:13:51.913837+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=f5d5aeb4-47c6-4a67-8a11-b10f0ef1bac8 fwd="12.23.56.98" dyno=web.1 connect=1ms service=4ms status=304 bytes=48 protocol=https
+2019-05-03T18:15:50.060321+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=244d3d29-6661-4384-952d-1a1b58f19219 fwd="12.23.56.98" dyno=web.1 connect=0ms service=76ms status=500 bytes=1827 protocol=https
+2019-05-03T18:15:49.988156+00:00 app[web.1]: I, [2019-05-03T18:15:49.988029 #4]  INFO -- : [244d3d29-6661-4384-952d-1a1b58f19219] Started GET "/" for 12.23.56.98 at 2019-05-03 18:15:49 +0000
+2019-05-03T18:15:49.988974+00:00 app[web.1]: I, [2019-05-03T18:15:49.988894 #4]  INFO -- : [244d3d29-6661-4384-952d-1a1b58f19219] Processing by StaticPagesController#root as HTML
+2019-05-03T18:15:49.989947+00:00 app[web.1]: I, [2019-05-03T18:15:49.989859 #4]  INFO -- : [244d3d29-6661-4384-952d-1a1b58f19219]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T18:15:50.057926+00:00 app[web.1]: I, [2019-05-03T18:15:50.057801 #4]  INFO -- : [244d3d29-6661-4384-952d-1a1b58f19219]   Rendered static_pages/root.html.erb within layouts/application (67.8ms)
+2019-05-03T18:15:50.058112+00:00 app[web.1]: I, [2019-05-03T18:15:50.058046 #4]  INFO -- : [244d3d29-6661-4384-952d-1a1b58f19219] Completed 500 Internal Server Error in 69ms (ActiveRecord: 23.0ms)
+2019-05-03T18:15:50.058967+00:00 app[web.1]: F, [2019-05-03T18:15:50.058878 #4] FATAL -- : [244d3d29-6661-4384-952d-1a1b58f19219]
+2019-05-03T18:15:50.059097+00:00 app[web.1]: F, [2019-05-03T18:15:50.058968 #4] FATAL -- : [244d3d29-6661-4384-952d-1a1b58f19219] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T18:15:50.059100+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:15:50.059102+00:00 app[web.1]: ^
+2019-05-03T18:15:50.059104+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T18:15:50.059106+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T18:15:50.059107+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T18:15:50.059109+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T18:15:50.059110+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T18:15:50.059112+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T18:15:50.059114+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T18:15:50.059115+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:15:50.059117+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T18:15:50.059118+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T18:15:50.059120+00:00 app[web.1]: ):
+2019-05-03T18:15:50.059342+00:00 app[web.1]: F, [2019-05-03T18:15:50.059269 #4] FATAL -- : [244d3d29-6661-4384-952d-1a1b58f19219]     1: <% if logged_in? %>
+2019-05-03T18:15:50.059345+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T18:15:50.059347+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T18:15:50.059349+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219]     4:   		user: current_user).html_safe %>
+2019-05-03T18:15:50.059450+00:00 app[web.1]: F, [2019-05-03T18:15:50.059375 #4] FATAL -- : [244d3d29-6661-4384-952d-1a1b58f19219]
+2019-05-03T18:15:50.059555+00:00 app[web.1]: F, [2019-05-03T18:15:50.059453 #4] FATAL -- : [244d3d29-6661-4384-952d-1a1b58f19219] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T18:15:50.059557+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T18:15:50.059559+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T18:15:50.059561+00:00 app[web.1]: [244d3d29-6661-4384-952d-1a1b58f19219] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T18:15:50.283271+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=168572f3-a0a6-446b-9733-c859b98a4934 fwd="12.23.56.98" dyno=web.1 connect=0ms service=2ms status=200 bytes=143 protocol=https
+2019-05-03T18:16:25.206601+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=ee231e2f-dd2d-4a46-9a7f-b1cd36317d35 fwd="12.23.56.98" dyno=web.1 connect=0ms service=9ms status=500 bytes=1827 protocol=https
+2019-05-03T18:16:25.198625+00:00 app[web.1]: I, [2019-05-03T18:16:25.198513 #4]  INFO -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] Started GET "/" for 12.23.56.98 at 2019-05-03 18:16:25 +0000
+2019-05-03T18:16:25.199512+00:00 app[web.1]: I, [2019-05-03T18:16:25.199432 #4]  INFO -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] Processing by StaticPagesController#root as HTML
+2019-05-03T18:16:25.200481+00:00 app[web.1]: I, [2019-05-03T18:16:25.200400 #4]  INFO -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T18:16:25.204117+00:00 app[web.1]: I, [2019-05-03T18:16:25.204037 #4]  INFO -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]   Rendered static_pages/root.html.erb within layouts/application (3.5ms)
+2019-05-03T18:16:25.204323+00:00 app[web.1]: I, [2019-05-03T18:16:25.204242 #4]  INFO -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.8ms)
+2019-05-03T18:16:25.205497+00:00 app[web.1]: F, [2019-05-03T18:16:25.205425 #4] FATAL -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]
+2019-05-03T18:16:25.205662+00:00 app[web.1]: F, [2019-05-03T18:16:25.205527 #4] FATAL -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T18:16:25.205665+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:16:25.205667+00:00 app[web.1]: ^
+2019-05-03T18:16:25.205669+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T18:16:25.205671+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T18:16:25.205673+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T18:16:25.205674+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T18:16:25.205675+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T18:16:25.205676+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T18:16:25.205678+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T18:16:25.205679+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:16:25.205680+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T18:16:25.205682+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T18:16:25.205684+00:00 app[web.1]: ):
+2019-05-03T18:16:25.205823+00:00 app[web.1]: F, [2019-05-03T18:16:25.205756 #4] FATAL -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]     1: <% if logged_in? %>
+2019-05-03T18:16:25.205825+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T18:16:25.205827+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T18:16:25.205828+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]     4:   		user: current_user).html_safe %>
+2019-05-03T18:16:25.205893+00:00 app[web.1]: F, [2019-05-03T18:16:25.205826 #4] FATAL -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35]
+2019-05-03T18:16:25.205976+00:00 app[web.1]: F, [2019-05-03T18:16:25.205905 #4] FATAL -- : [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T18:16:25.205980+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T18:16:25.205981+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T18:16:25.205982+00:00 app[web.1]: [ee231e2f-dd2d-4a46-9a7f-b1cd36317d35] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T18:18:17.718029+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=df4252e4-90d1-453c-8c17-f15dc888d5e4 fwd="12.23.56.98" dyno=web.1 connect=0ms service=12ms status=500 bytes=1827 protocol=https
+2019-05-03T18:18:17.707830+00:00 app[web.1]: I, [2019-05-03T18:18:17.707694 #4]  INFO -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4] Started GET "/" for 12.23.56.98 at 2019-05-03 18:18:17 +0000
+2019-05-03T18:18:17.708753+00:00 app[web.1]: I, [2019-05-03T18:18:17.708660 #4]  INFO -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4] Processing by StaticPagesController#root as HTML
+2019-05-03T18:18:17.710249+00:00 app[web.1]: I, [2019-05-03T18:18:17.710156 #4]  INFO -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T18:18:17.715373+00:00 app[web.1]: I, [2019-05-03T18:18:17.715283 #4]  INFO -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4]   Rendered static_pages/root.html.erb within layouts/application (5.0ms)
+2019-05-03T18:18:17.715691+00:00 app[web.1]: I, [2019-05-03T18:18:17.715617 #4]  INFO -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4] Completed 500 Internal Server Error in 6ms (ActiveRecord: 3.1ms)
+2019-05-03T18:18:17.716976+00:00 app[web.1]: F, [2019-05-03T18:18:17.716900 #4] FATAL -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4]
+2019-05-03T18:18:17.717078+00:00 app[web.1]: F, [2019-05-03T18:18:17.717005 #4] FATAL -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4] ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "users" does not exist
+2019-05-03T18:18:17.717080+00:00 app[web.1]: LINE 8:                WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:18:17.717082+00:00 app[web.1]: ^
+2019-05-03T18:18:17.717084+00:00 app[web.1]: :               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2019-05-03T18:18:17.717086+00:00 app[web.1]: pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+2019-05-03T18:18:17.717088+00:00 app[web.1]: c.collname, col_description(a.attrelid, a.attnum) AS comment
+2019-05-03T18:18:17.717089+00:00 app[web.1]: FROM pg_attribute a
+2019-05-03T18:18:17.717091+00:00 app[web.1]: LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2019-05-03T18:18:17.717093+00:00 app[web.1]: LEFT JOIN pg_type t ON a.atttypid = t.oid
+2019-05-03T18:18:17.717095+00:00 app[web.1]: LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+2019-05-03T18:18:17.717096+00:00 app[web.1]: WHERE a.attrelid = '"users"'::regclass
+2019-05-03T18:18:17.717098+00:00 app[web.1]: AND a.attnum > 0 AND NOT a.attisdropped
+2019-05-03T18:18:17.717099+00:00 app[web.1]: ORDER BY a.attnum
+2019-05-03T18:18:17.717101+00:00 app[web.1]: ):
+2019-05-03T18:18:17.717292+00:00 app[web.1]: F, [2019-05-03T18:18:17.717230 #4] FATAL -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4]     1: <% if logged_in? %>
+2019-05-03T18:18:17.717294+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4]     2:   <script id="bootstrap-current-user" type="text/javascript">
+2019-05-03T18:18:17.717296+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4]     3:   	window.currentUser = <%= render("api/users/user.json.jbuilder",
+2019-05-03T18:18:17.717298+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4]     4:   		user: current_user).html_safe %>
+2019-05-03T18:18:17.717386+00:00 app[web.1]: F, [2019-05-03T18:18:17.717318 #4] FATAL -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4]
+2019-05-03T18:18:17.717475+00:00 app[web.1]: F, [2019-05-03T18:18:17.717417 #4] FATAL -- : [df4252e4-90d1-453c-8c17-f15dc888d5e4] app/controllers/application_controller.rb:11:in `current_user'
+2019-05-03T18:18:17.717478+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4] app/controllers/application_controller.rb:15:in `logged_in?'
+2019-05-03T18:18:17.717480+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4] app/views/static_pages/root.html.erb:1:in `_app_views_static_pages_root_html_erb___1187112976581805875_47104466490640'
+2019-05-03T18:18:17.717481+00:00 app[web.1]: [df4252e4-90d1-453c-8c17-f15dc888d5e4] app/controllers/static_pages_controller.rb:3:in `root'
+2019-05-03T18:19:04.739738+00:00 app[api]: Starting process with command `bundle exec rake db:migrate` by user mattjang95@gmail.com
+2019-05-03T18:19:11.648467+00:00 heroku[run.4764]: State changed from starting to up
+2019-05-03T18:19:11.704207+00:00 heroku[run.4764]: Awaiting client
+2019-05-03T18:19:11.736525+00:00 heroku[run.4764]: Starting process with command `bundle exec rake db:migrate`
+2019-05-03T18:19:20.668506+00:00 heroku[run.4764]: State changed from up to complete
+2019-05-03T18:19:20.648377+00:00 heroku[run.4764]: Process exited with status 0
+2019-05-03T18:19:32.834925+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=14342521-984e-4218-98fa-f5eb63024575 fwd="12.23.56.98" dyno=web.1 connect=0ms service=40ms status=200 bytes=1322 protocol=https
+2019-05-03T18:19:32.934238+00:00 heroku[router]: at=info method=GET path="/assets/application-4a1f21987dc91ed5e237c85e9a2fb2eb631c39a2641993a4ecd20992b764e055.css" host=shuttr.herokuapp.com request_id=71421265-88f4-4805-b8cd-f7fe333ed5e2 fwd="12.23.56.98" dyno=web.1 connect=0ms service=2ms status=200 bytes=3624 protocol=https
+2019-05-03T18:19:32.795785+00:00 app[web.1]: I, [2019-05-03T18:19:32.795648 #4]  INFO -- : [14342521-984e-4218-98fa-f5eb63024575] Started GET "/" for 12.23.56.98 at 2019-05-03 18:19:32 +0000
+2019-05-03T18:19:32.796572+00:00 app[web.1]: I, [2019-05-03T18:19:32.796481 #4]  INFO -- : [14342521-984e-4218-98fa-f5eb63024575] Processing by StaticPagesController#root as HTML
+2019-05-03T18:19:32.799913+00:00 app[web.1]: I, [2019-05-03T18:19:32.799830 #4]  INFO -- : [14342521-984e-4218-98fa-f5eb63024575]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T18:19:32.827466+00:00 app[web.1]: D, [2019-05-03T18:19:32.827297 #4] DEBUG -- : [14342521-984e-4218-98fa-f5eb63024575]   [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-03T18:19:32.828329+00:00 app[web.1]: I, [2019-05-03T18:19:32.828248 #4]  INFO -- : [14342521-984e-4218-98fa-f5eb63024575]   Rendered static_pages/root.html.erb within layouts/application (27.6ms)
+2019-05-03T18:19:32.831129+00:00 app[web.1]: I, [2019-05-03T18:19:32.831045 #4]  INFO -- : [14342521-984e-4218-98fa-f5eb63024575] Completed 200 OK in 32ms (Views: 19.2ms | ActiveRecord: 12.2ms)
+2019-05-03T18:19:32.938834+00:00 heroku[router]: at=info method=GET path="/assets/application-1b07c83d73e4e95581eefe5a8bf0fc948c36cc707723d88b24bbaca2ab6076da.js" host=shuttr.herokuapp.com request_id=ee0ac309-9d87-463a-a02b-5ea6eb93f888 fwd="12.23.56.98" dyno=web.1 connect=0ms service=5ms status=200 bytes=106781 protocol=https
+2019-05-03T18:19:33.393960+00:00 heroku[router]: at=info method=GET path="/assets/wolf-2d5ff4ed62f21e8602ef01d368f2ee712f33d250f6880a16cd560d2892d3cf03.jpg" host=shuttr.herokuapp.com request_id=1a845aac-ead4-4a51-80c1-ccf1b71540d1 fwd="12.23.56.98" dyno=web.1 connect=1ms service=10ms status=200 bytes=132316 protocol=https
+2019-05-03T18:19:33.403065+00:00 heroku[router]: at=info method=GET path="/assets/tree-5152d9d973f4661010697ef6698e3d0a4ba087e8c85930c2eaa27e64071d9bfc.jpg" host=shuttr.herokuapp.com request_id=47464c5d-00c5-4efd-a7f4-137046202d27 fwd="12.23.56.98" dyno=web.1 connect=0ms service=24ms status=200 bytes=352034 protocol=https
+2019-05-03T18:19:33.601785+00:00 heroku[router]: at=info method=GET path="/assets/yosemite-204efafb4815c3781b8fd4a707b707766a29bcd4c15c541491d84b1a13ff7764.jpg" host=shuttr.herokuapp.com request_id=20286f37-416c-4398-b466-df84f1a124e8 fwd="12.23.56.98" dyno=web.1 connect=0ms service=44ms status=200 bytes=863792 protocol=https
+2019-05-03T18:19:33.583178+00:00 heroku[router]: at=info method=GET path="/assets/sf-dbf7d1e7282ebbe66290ef099b0e846add1eae188378a4d1d58b8503514f7f58.jpg" host=shuttr.herokuapp.com request_id=3a341b2d-bb3c-4f12-aa82-8d9762ff18ad fwd="12.23.56.98" dyno=web.1 connect=1ms service=22ms status=200 bytes=182150 protocol=https
+2019-05-03T18:19:35.205716+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=c8d87092-7802-46ca-8953-04489ebf7bc4 fwd="12.23.56.98" dyno=web.1 connect=0ms service=9ms status=304 bytes=48 protocol=https
+2019-05-03T18:39:33.000000+00:00 app[api]: Build started by user mattjang95@gmail.com
+2019-05-03T18:40:40.242787+00:00 heroku[web.1]: Restarting
+2019-05-03T18:40:40.251512+00:00 heroku[web.1]: State changed from up to starting
+2019-05-03T18:40:39.963447+00:00 app[api]: Deploy 1b2bea53 by user mattjang95@gmail.com
+2019-05-03T18:40:41.343961+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-03T18:40:41.520200+00:00 heroku[web.1]: Process exited with status 143
+2019-05-03T18:40:41.371189+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-03T18:40:41.387171+00:00 app[web.1]: === puma shutdown: 2019-05-03 18:40:41 +0000 ===
+2019-05-03T18:40:41.387226+00:00 app[web.1]: - Goodbye!
+2019-05-03T18:40:41.387353+00:00 app[web.1]: Exiting
+2019-05-03T18:40:39.963447+00:00 app[api]: Release v8 created by user mattjang95@gmail.com
+2019-05-03T18:40:45.000000+00:00 app[api]: Build succeeded
+2019-05-03T18:40:47.294874+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 30133 -e production`
+2019-05-03T18:40:53.760786+00:00 heroku[web.1]: State changed from starting to up
+2019-05-03T19:12:42.519128+00:00 heroku[web.1]: Idling
+2019-05-03T19:12:42.522488+00:00 heroku[web.1]: State changed from up to down
+2019-05-03T19:12:43.297033+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-03T19:12:43.401522+00:00 heroku[web.1]: Process exited with status 143
+2019-05-03T19:12:43.343842+00:00 app[web.1]: => Booting Puma
+2019-05-03T19:12:43.343867+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-03T19:12:43.343869+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-03T19:12:43.343871+00:00 app[web.1]: Puma starting in single mode...
+2019-05-03T19:12:43.343873+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-03T19:12:43.343875+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-03T19:12:43.343877+00:00 app[web.1]: * Environment: production
+2019-05-03T19:12:43.343879+00:00 app[web.1]: * Listening on tcp://0.0.0.0:30133
+2019-05-03T19:12:43.343881+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-03T19:12:43.343882+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-03T19:12:43.343884+00:00 app[web.1]: === puma shutdown: 2019-05-03 19:12:43 +0000 ===
+2019-05-03T19:12:43.343886+00:00 app[web.1]: - Goodbye!
+2019-05-03T19:12:43.343888+00:00 app[web.1]: Exiting
+2019-05-03T23:37:11.973080+00:00 heroku[web.1]: Unidling
+2019-05-03T23:37:11.979543+00:00 heroku[web.1]: State changed from down to starting
+2019-05-03T23:37:19.883362+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 4785 -e production`
+2019-05-03T23:37:26.013210+00:00 heroku[web.1]: State changed from starting to up
+2019-05-03T23:37:28.149433+00:00 heroku[router]: sock=client at=warning code=H27 desc="Client Request Interrupted" method=GET path="/" host=shuttr.herokuapp.com request_id=0f503ae0-c5ab-44bc-b90a-b994ff2f949e fwd="12.23.56.98" dyno=web.1 connect=1ms service=92ms status=499 bytes= protocol=https
+2019-05-03T23:37:28.059317+00:00 app[web.1]: => Booting Puma
+2019-05-03T23:37:28.059349+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-03T23:37:28.059351+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-03T23:37:28.059353+00:00 app[web.1]: Puma starting in single mode...
+2019-05-03T23:37:28.059355+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-03T23:37:28.059357+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-03T23:37:28.059358+00:00 app[web.1]: * Environment: production
+2019-05-03T23:37:28.059360+00:00 app[web.1]: * Listening on tcp://0.0.0.0:4785
+2019-05-03T23:37:28.059361+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-03T23:37:28.059375+00:00 app[web.1]: I, [2019-05-03T23:37:28.059158 #4]  INFO -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e] Started GET "/" for 12.23.56.98 at 2019-05-03 23:37:28 +0000
+2019-05-03T23:37:28.060633+00:00 app[web.1]: I, [2019-05-03T23:37:28.060546 #4]  INFO -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e] Processing by StaticPagesController#root as HTML
+2019-05-03T23:37:28.074043+00:00 app[web.1]: I, [2019-05-03T23:37:28.073921 #4]  INFO -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T23:37:28.143199+00:00 app[web.1]: D, [2019-05-03T23:37:28.143030 #4] DEBUG -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e]   [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-03T23:37:28.143632+00:00 app[web.1]: I, [2019-05-03T23:37:28.143538 #4]  INFO -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e]   Rendered static_pages/root.html.erb within layouts/application (69.4ms)
+2019-05-03T23:37:28.145436+00:00 app[web.1]: I, [2019-05-03T23:37:28.145338 #4]  INFO -- : [0f503ae0-c5ab-44bc-b90a-b994ff2f949e] Completed 200 OK in 85ms (Views: 73.7ms | ActiveRecord: 26.9ms)
+2019-05-03T23:49:37.448318+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=935b889b-a157-42ba-9e90-2bee338ab8f9 fwd="12.23.56.98" dyno=web.1 connect=0ms service=78ms status=200 bytes=1330 protocol=https
+2019-05-03T23:49:37.377581+00:00 app[web.1]: I, [2019-05-03T23:49:37.377441 #4]  INFO -- : [935b889b-a157-42ba-9e90-2bee338ab8f9] Started GET "/" for 12.23.56.98 at 2019-05-03 23:49:37 +0000
+2019-05-03T23:49:37.378942+00:00 app[web.1]: I, [2019-05-03T23:49:37.378860 #4]  INFO -- : [935b889b-a157-42ba-9e90-2bee338ab8f9] Processing by StaticPagesController#root as HTML
+2019-05-03T23:49:37.380518+00:00 app[web.1]: I, [2019-05-03T23:49:37.380423 #4]  INFO -- : [935b889b-a157-42ba-9e90-2bee338ab8f9]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T23:49:37.444541+00:00 app[web.1]: D, [2019-05-03T23:49:37.444371 #4] DEBUG -- : [935b889b-a157-42ba-9e90-2bee338ab8f9]   [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-03T23:49:37.444982+00:00 app[web.1]: I, [2019-05-03T23:49:37.444897 #4]  INFO -- : [935b889b-a157-42ba-9e90-2bee338ab8f9]   Rendered static_pages/root.html.erb within layouts/application (64.3ms)
+2019-05-03T23:49:37.446116+00:00 app[web.1]: I, [2019-05-03T23:49:37.446031 #4]  INFO -- : [935b889b-a157-42ba-9e90-2bee338ab8f9] Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 22.3ms)
+2019-05-03T23:49:37.655464+00:00 heroku[router]: at=info method=GET path="/assets/application-b951d10bec910cde8c494cd2dd612090c1e8aa82c0093efac694975047f9a3b6.js" host=shuttr.herokuapp.com request_id=47f417bf-0888-4862-bca9-912335daa871 fwd="12.23.56.98" dyno=web.1 connect=0ms service=5ms status=200 bytes=106790 protocol=https
+2019-05-03T23:49:37.655557+00:00 heroku[router]: at=info method=GET path="/assets/application-4a1f21987dc91ed5e237c85e9a2fb2eb631c39a2641993a4ecd20992b764e055.css" host=shuttr.herokuapp.com request_id=087d9288-dde9-4474-809a-dbc475a48e1b fwd="12.23.56.98" dyno=web.1 connect=0ms service=2ms status=304 bytes=48 protocol=https
+2019-05-03T23:49:38.113417+00:00 heroku[router]: at=info method=GET path="/assets/tree-5152d9d973f4661010697ef6698e3d0a4ba087e8c85930c2eaa27e64071d9bfc.jpg" host=shuttr.herokuapp.com request_id=ef2f417b-fa78-4915-a603-0df50fc7abdc fwd="12.23.56.98" dyno=web.1 connect=0ms service=17ms status=200 bytes=352034 protocol=https
+2019-05-03T23:49:38.118031+00:00 heroku[router]: at=info method=GET path="/assets/wolf-2d5ff4ed62f21e8602ef01d368f2ee712f33d250f6880a16cd560d2892d3cf03.jpg" host=shuttr.herokuapp.com request_id=63a28403-ee7b-4e98-a7f3-a7831152a94e fwd="12.23.56.98" dyno=web.1 connect=1ms service=16ms status=200 bytes=132316 protocol=https
+2019-05-03T23:49:38.267410+00:00 heroku[router]: at=info method=GET path="/assets/sf-dbf7d1e7282ebbe66290ef099b0e846add1eae188378a4d1d58b8503514f7f58.jpg" host=shuttr.herokuapp.com request_id=2f768a35-9db5-4066-81e7-264d0b94e769 fwd="12.23.56.98" dyno=web.1 connect=1ms service=28ms status=200 bytes=182150 protocol=https
+2019-05-03T23:49:38.294435+00:00 heroku[router]: at=info method=GET path="/assets/yosemite-204efafb4815c3781b8fd4a707b707766a29bcd4c15c541491d84b1a13ff7764.jpg" host=shuttr.herokuapp.com request_id=1e201a62-38cf-426f-b235-a754260926d0 fwd="12.23.56.98" dyno=web.1 connect=1ms service=53ms status=200 bytes=863792 protocol=https
+2019-05-03T23:49:40.222196+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=fd989d06-92aa-41f0-97e1-e48f091ef043 fwd="12.23.56.98" dyno=web.1 connect=1ms service=17ms status=200 bytes=143 protocol=https
+2019-05-03T23:54:49.680009+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=a0e34915-4060-4d5b-90e6-d56677746f4b fwd="12.23.56.98" dyno=web.1 connect=1ms service=22ms status=200 bytes=1332 protocol=https
+2019-05-03T23:54:49.661305+00:00 app[web.1]: I, [2019-05-03T23:54:49.661159 #4]  INFO -- : [a0e34915-4060-4d5b-90e6-d56677746f4b] Started GET "/" for 12.23.56.98 at 2019-05-03 23:54:49 +0000
+2019-05-03T23:54:49.662453+00:00 app[web.1]: I, [2019-05-03T23:54:49.662358 #4]  INFO -- : [a0e34915-4060-4d5b-90e6-d56677746f4b] Processing by StaticPagesController#root as HTML
+2019-05-03T23:54:49.667904+00:00 app[web.1]: I, [2019-05-03T23:54:49.663679 #4]  INFO -- : [a0e34915-4060-4d5b-90e6-d56677746f4b]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-03T23:54:49.672866+00:00 app[web.1]: D, [2019-05-03T23:54:49.672748 #4] DEBUG -- : [a0e34915-4060-4d5b-90e6-d56677746f4b]   [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-03T23:54:49.673175+00:00 app[web.1]: I, [2019-05-03T23:54:49.673088 #4]  INFO -- : [a0e34915-4060-4d5b-90e6-d56677746f4b]   Rendered static_pages/root.html.erb within layouts/application (5.1ms)
+2019-05-03T23:54:49.674317+00:00 app[web.1]: I, [2019-05-03T23:54:49.674221 #4]  INFO -- : [a0e34915-4060-4d5b-90e6-d56677746f4b] Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 1.7ms)
+2019-05-04T00:29:14.298617+00:00 heroku[web.1]: Idling
+2019-05-04T00:29:14.303832+00:00 heroku[web.1]: State changed from up to down
+2019-05-04T00:29:15.149928+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-04T00:29:15.151378+00:00 app[web.1]: === puma shutdown: 2019-05-04 00:29:15 +0000 ===
+2019-05-04T00:29:15.151384+00:00 app[web.1]: - Goodbye!
+2019-05-04T00:29:15.151495+00:00 app[web.1]: Exiting
+2019-05-04T00:29:15.130822+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-04T00:29:15.250243+00:00 heroku[web.1]: Process exited with status 143
+2019-05-05T19:03:20.735191+00:00 heroku[web.1]: Unidling
+2019-05-05T19:03:20.753055+00:00 heroku[web.1]: State changed from down to starting
+2019-05-05T19:03:26.146553+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 43712 -e production`
+2019-05-05T19:03:29.725610+00:00 heroku[web.1]: State changed from starting to up
+2019-05-05T19:03:30.825231+00:00 app[web.1]: => Booting Puma
+2019-05-05T19:03:30.825259+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-05T19:03:30.825261+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-05T19:03:30.825262+00:00 app[web.1]: Puma starting in single mode...
+2019-05-05T19:03:30.825263+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-05T19:03:30.825265+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-05T19:03:30.825266+00:00 app[web.1]: * Environment: production
+2019-05-05T19:03:30.825267+00:00 app[web.1]: * Listening on tcp://0.0.0.0:43712
+2019-05-05T19:03:30.825268+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-05T19:03:30.825278+00:00 app[web.1]: I, [2019-05-05T19:03:30.825119 #4]  INFO -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663] Started GET "/" for 96.82.96.99 at 2019-05-05 19:03:30 +0000
+2019-05-05T19:03:30.826162+00:00 app[web.1]: I, [2019-05-05T19:03:30.826095 #4]  INFO -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663] Processing by StaticPagesController#root as HTML
+2019-05-05T19:03:30.834069+00:00 app[web.1]: I, [2019-05-05T19:03:30.834001 #4]  INFO -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-05T19:03:30.944736+00:00 app[web.1]: D, [2019-05-05T19:03:30.944638 #4] DEBUG -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663]   [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-05T19:03:30.945070+00:00 app[web.1]: I, [2019-05-05T19:03:30.945005 #4]  INFO -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663]   Rendered static_pages/root.html.erb within layouts/application (110.9ms)
+2019-05-05T19:03:30.946144+00:00 app[web.1]: I, [2019-05-05T19:03:30.946068 #4]  INFO -- : [543723ca-a5f2-41c0-a1c0-a88f2aa10663] Completed 200 OK in 120ms (Views: 113.6ms | ActiveRecord: 84.5ms)
+2019-05-05T19:03:30.950761+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=543723ca-a5f2-41c0-a1c0-a88f2aa10663 fwd="96.82.96.99" dyno=web.1 connect=0ms service=127ms status=200 bytes=1336 protocol=https
+2019-05-05T19:03:31.246708+00:00 app[web.1]: I, [2019-05-05T19:03:31.246605 #4]  INFO -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7] Started GET "/" for 96.82.96.99 at 2019-05-05 19:03:31 +0000
+2019-05-05T19:03:31.247435+00:00 app[web.1]: I, [2019-05-05T19:03:31.247353 #4]  INFO -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7] Processing by StaticPagesController#root as HTML
+2019-05-05T19:03:31.248299+00:00 app[web.1]: I, [2019-05-05T19:03:31.248217 #4]  INFO -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-05T19:03:31.250740+00:00 app[web.1]: D, [2019-05-05T19:03:31.250657 #4] DEBUG -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7]   [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-05T19:03:31.250969+00:00 app[web.1]: I, [2019-05-05T19:03:31.250892 #4]  INFO -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7]   Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+2019-05-05T19:03:31.251633+00:00 app[web.1]: I, [2019-05-05T19:03:31.251553 #4]  INFO -- : [b301fd0b-62dd-4f4c-a696-0c330d4ebaf7] Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.9ms)
+2019-05-05T19:03:31.253038+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=b301fd0b-62dd-4f4c-a696-0c330d4ebaf7 fwd="96.82.96.99" dyno=web.1 connect=0ms service=7ms status=200 bytes=1330 protocol=https
+2019-05-05T19:03:31.559732+00:00 heroku[router]: at=info method=GET path="/assets/application-b951d10bec910cde8c494cd2dd612090c1e8aa82c0093efac694975047f9a3b6.js" host=shuttr.herokuapp.com request_id=292ce8c5-aada-4285-9220-aa598a1fe642 fwd="96.82.96.99" dyno=web.1 connect=1ms service=4ms status=200 bytes=106790 protocol=https
+2019-05-05T19:03:31.564645+00:00 heroku[router]: at=info method=GET path="/assets/application-4a1f21987dc91ed5e237c85e9a2fb2eb631c39a2641993a4ecd20992b764e055.css" host=shuttr.herokuapp.com request_id=35d0c493-acee-40fe-afd9-ce182ff6d024 fwd="96.82.96.99" dyno=web.1 connect=1ms service=1ms status=304 bytes=48 protocol=https
+2019-05-05T19:03:32.341745+00:00 heroku[router]: at=info method=GET path="/assets/wolf-2d5ff4ed62f21e8602ef01d368f2ee712f33d250f6880a16cd560d2892d3cf03.jpg" host=shuttr.herokuapp.com request_id=94c9adc3-ad4f-4c7a-8192-48dd717704ca fwd="96.82.96.99" dyno=web.1 connect=1ms service=7ms status=200 bytes=132316 protocol=https
+2019-05-05T19:03:32.337613+00:00 heroku[router]: at=info method=GET path="/assets/tree-5152d9d973f4661010697ef6698e3d0a4ba087e8c85930c2eaa27e64071d9bfc.jpg" host=shuttr.herokuapp.com request_id=1ae13a22-0007-4cbe-8a78-91a45d2aaec8 fwd="96.82.96.99" dyno=web.1 connect=0ms service=11ms status=200 bytes=352034 protocol=https
+2019-05-05T19:03:32.699883+00:00 heroku[router]: at=info method=GET path="/assets/yosemite-204efafb4815c3781b8fd4a707b707766a29bcd4c15c541491d84b1a13ff7764.jpg" host=shuttr.herokuapp.com request_id=9f4c9a47-3c25-4bdf-9ead-136717593518 fwd="96.82.96.99" dyno=web.1 connect=1ms service=22ms status=200 bytes=863792 protocol=https
+2019-05-05T19:03:32.693029+00:00 heroku[router]: at=info method=GET path="/assets/sf-dbf7d1e7282ebbe66290ef099b0e846add1eae188378a4d1d58b8503514f7f58.jpg" host=shuttr.herokuapp.com request_id=5973b940-f541-4fef-8a17-da7bd4abc226 fwd="96.82.96.99" dyno=web.1 connect=0ms service=9ms status=200 bytes=182150 protocol=https
+2019-05-05T19:03:33.501275+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=fde7e0af-7d13-48e4-a6f9-3af4505677bf fwd="96.82.96.99" dyno=web.1 connect=0ms service=1ms status=304 bytes=48 protocol=https
+2019-05-05T19:32:46.921957+00:00 app[web.1]: I, [2019-05-05T19:32:46.921850 #4]  INFO -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8] Started GET "/" for 96.82.96.99 at 2019-05-05 19:32:46 +0000
+2019-05-05T19:32:46.922905+00:00 app[web.1]: I, [2019-05-05T19:32:46.922839 #4]  INFO -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8] Processing by StaticPagesController#root as HTML
+2019-05-05T19:32:46.923869+00:00 app[web.1]: I, [2019-05-05T19:32:46.923799 #4]  INFO -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-05T19:32:46.959142+00:00 app[web.1]: D, [2019-05-05T19:32:46.959049 #4] DEBUG -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8]   [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-05T19:32:46.959398+00:00 app[web.1]: I, [2019-05-05T19:32:46.959335 #4]  INFO -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8]   Rendered static_pages/root.html.erb within layouts/application (35.4ms)
+2019-05-05T19:32:46.960142+00:00 app[web.1]: I, [2019-05-05T19:32:46.960046 #4]  INFO -- : [ba4fbc44-3cc6-4f44-a10a-7f06371f27f8] Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 12.5ms)
+2019-05-05T19:32:46.964067+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=ba4fbc44-3cc6-4f44-a10a-7f06371f27f8 fwd="96.82.96.99" dyno=web.1 connect=1ms service=41ms status=200 bytes=1332 protocol=https
+2019-05-05T19:32:47.307094+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=b35d5fae-c500-48fb-90fc-251972fc0286 fwd="96.82.96.99" dyno=web.1 connect=1ms service=1ms status=200 bytes=143 protocol=https
+2019-05-05T20:03:28.200445+00:00 heroku[web.1]: Idling
+2019-05-05T20:03:28.203942+00:00 heroku[web.1]: State changed from up to down
+2019-05-05T20:03:29.372817+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-05T20:03:29.386755+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-05T20:03:29.388532+00:00 app[web.1]: === puma shutdown: 2019-05-05 20:03:29 +0000 ===
+2019-05-05T20:03:29.388536+00:00 app[web.1]: - Goodbye!
+2019-05-05T20:03:29.388538+00:00 app[web.1]: Exiting
+2019-05-05T20:03:29.525588+00:00 heroku[web.1]: Process exited with status 143
+2019-05-06T20:30:24.032257+00:00 heroku[web.1]: Unidling
+2019-05-06T20:30:24.047944+00:00 heroku[web.1]: State changed from down to starting
+2019-05-06T20:30:30.136434+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 5475 -e production`
+2019-05-06T20:30:33.821201+00:00 heroku[web.1]: State changed from starting to up
+2019-05-06T20:30:36.128827+00:00 app[web.1]: => Booting Puma
+2019-05-06T20:30:36.128866+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-06T20:30:36.128868+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-06T20:30:36.128874+00:00 app[web.1]: Puma starting in single mode...
+2019-05-06T20:30:36.128876+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-05-06T20:30:36.128882+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-05-06T20:30:36.128884+00:00 app[web.1]: * Environment: production
+2019-05-06T20:30:36.128886+00:00 app[web.1]: * Listening on tcp://0.0.0.0:5475
+2019-05-06T20:30:36.128887+00:00 app[web.1]: Use Ctrl-C to stop
+2019-05-06T20:30:36.128893+00:00 app[web.1]: I, [2019-05-06T20:30:36.128696 #4]  INFO -- : [87697f38-5c02-4509-8dba-81ee83b15f92] Started GET "/" for 4.14.104.186 at 2019-05-06 20:30:36 +0000
+2019-05-06T20:30:36.129771+00:00 app[web.1]: I, [2019-05-06T20:30:36.129686 #4]  INFO -- : [87697f38-5c02-4509-8dba-81ee83b15f92] Processing by StaticPagesController#root as HTML
+2019-05-06T20:30:36.137888+00:00 app[web.1]: I, [2019-05-06T20:30:36.137805 #4]  INFO -- : [87697f38-5c02-4509-8dba-81ee83b15f92]   Rendering static_pages/root.html.erb within layouts/application
+2019-05-06T20:30:36.266065+00:00 app[web.1]: D, [2019-05-06T20:30:36.265936 #4] DEBUG -- : [87697f38-5c02-4509-8dba-81ee83b15f92]   [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+2019-05-06T20:30:36.266394+00:00 app[web.1]: I, [2019-05-06T20:30:36.266324 #4]  INFO -- : [87697f38-5c02-4509-8dba-81ee83b15f92]   Rendered static_pages/root.html.erb within layouts/application (128.4ms)
+2019-05-06T20:30:36.267991+00:00 app[web.1]: I, [2019-05-06T20:30:36.267865 #4]  INFO -- : [87697f38-5c02-4509-8dba-81ee83b15f92] Completed 200 OK in 138ms (Views: 131.6ms | ActiveRecord: 102.1ms)
+2019-05-06T20:30:36.447430+00:00 heroku[router]: at=info method=GET path="/assets/application-4a1f21987dc91ed5e237c85e9a2fb2eb631c39a2641993a4ecd20992b764e055.css" host=shuttr.herokuapp.com request_id=76eaedbc-4f22-4245-98ea-6b720ff9c012 fwd="4.14.104.186" dyno=web.1 connect=2ms service=8ms status=200 bytes=3624 protocol=https
+2019-05-06T20:30:36.268605+00:00 heroku[router]: at=info method=GET path="/" host=shuttr.herokuapp.com request_id=87697f38-5c02-4509-8dba-81ee83b15f92 fwd="4.14.104.186" dyno=web.1 connect=1ms service=143ms status=200 bytes=1326 protocol=https
+2019-05-06T20:30:36.544734+00:00 heroku[router]: at=info method=GET path="/assets/application-b951d10bec910cde8c494cd2dd612090c1e8aa82c0093efac694975047f9a3b6.js" host=shuttr.herokuapp.com request_id=b66a15e1-8c81-4bbd-96e5-094978d10c0b fwd="4.14.104.186" dyno=web.1 connect=7ms service=7ms status=200 bytes=106790 protocol=https
+2019-05-06T20:30:36.981818+00:00 heroku[router]: at=info method=GET path="/assets/wolf-2d5ff4ed62f21e8602ef01d368f2ee712f33d250f6880a16cd560d2892d3cf03.jpg" host=shuttr.herokuapp.com request_id=b92f8d2f-75ad-4301-a860-a23c61be0aed fwd="4.14.104.186" dyno=web.1 connect=0ms service=6ms status=200 bytes=132316 protocol=https
+2019-05-06T20:30:37.003693+00:00 heroku[router]: at=info method=GET path="/assets/tree-5152d9d973f4661010697ef6698e3d0a4ba087e8c85930c2eaa27e64071d9bfc.jpg" host=shuttr.herokuapp.com request_id=d4746b18-2761-44e9-9ae7-555554ac0b64 fwd="4.14.104.186" dyno=web.1 connect=2ms service=24ms status=200 bytes=352034 protocol=https
+2019-05-06T20:30:37.153988+00:00 heroku[router]: at=info method=GET path="/assets/yosemite-204efafb4815c3781b8fd4a707b707766a29bcd4c15c541491d84b1a13ff7764.jpg" host=shuttr.herokuapp.com request_id=1c033ff8-cf1a-4a82-9bec-2958d5fe4eb1 fwd="4.14.104.186" dyno=web.1 connect=1ms service=27ms status=200 bytes=863792 protocol=https
+2019-05-06T20:30:37.378756+00:00 heroku[router]: at=info method=GET path="/assets/sf-dbf7d1e7282ebbe66290ef099b0e846add1eae188378a4d1d58b8503514f7f58.jpg" host=shuttr.herokuapp.com request_id=a9661996-d8ee-406b-a63e-ec4ff62de057 fwd="4.14.104.186" dyno=web.1 connect=1ms service=15ms status=200 bytes=182150 protocol=https
+2019-05-06T20:30:38.448832+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=4815c119-370f-4e1a-a3c0-65ef1be85ce5 fwd="4.14.104.186" dyno=web.1 connect=0ms service=1ms status=304 bytes=48 protocol=https
+2019-05-06T21:04:34.176845+00:00 heroku[web.1]: Idling
+2019-05-06T21:04:34.181460+00:00 heroku[web.1]: State changed from up to down
+2019-05-06T21:04:35.034885+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-05-06T21:04:35.037300+00:00 app[web.1]: === puma shutdown: 2019-05-06 21:04:35 +0000 ===
+2019-05-06T21:04:35.037332+00:00 app[web.1]: - Goodbye!
+2019-05-06T21:04:35.037452+00:00 app[web.1]: Exiting
+2019-05-06T21:04:35.022905+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-05-06T21:04:35.142724+00:00 heroku[web.1]: Process exited with status 143
+2019-05-06T22:30:08.000000+00:00 app[api]: Build started by user mattjang95@gmail.com
+2019-05-06T22:31:18.599542+00:00 heroku[web.1]: State changed from down to starting
+2019-05-06T22:31:18.352492+00:00 app[api]: Release v9 created by user mattjang95@gmail.com
+2019-05-06T22:31:18.352492+00:00 app[api]: Deploy 3edf53d5 by user mattjang95@gmail.com
+2019-05-06T22:31:24.000000+00:00 app[api]: Build succeeded
+2019-05-06T22:31:26.253544+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 9859 -e production`
+2019-05-06T22:31:32.347438+00:00 heroku[web.1]: State changed from starting to crashed
+2019-05-06T22:31:32.353697+00:00 heroku[web.1]: State changed from crashed to starting
+2019-05-06T22:31:32.330238+00:00 heroku[web.1]: Process exited with status 1
+2019-05-06T22:31:32.259595+00:00 app[web.1]: (erb):6:in `<main>': undefined method `[]' for nil:NilClass (NoMethodError)
+2019-05-06T22:31:32.259620+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/erb.rb:876:in `eval'
+2019-05-06T22:31:32.259622+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/erb.rb:876:in `result'
+2019-05-06T22:31:32.259627+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/lib/active_storage/engine.rb:95:in `block (2 levels) in <class:Engine>'
+2019-05-06T22:31:32.259629+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+2019-05-06T22:31:32.259631+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+2019-05-06T22:31:32.259635+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+2019-05-06T22:31:32.259637+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+2019-05-06T22:31:32.259638+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+2019-05-06T22:31:32.259643+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `each'
+2019-05-06T22:31:32.259645+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+2019-05-06T22:31:32.259646+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/app/models/active_storage/blob.rb:235:in `<class:Blob>'
+2019-05-06T22:31:32.259651+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/app/models/active_storage/blob.rb:16:in `<top (required)>'
+2019-05-06T22:31:32.259653+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:32.259665+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259667+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:32.259672+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259674+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:32.259676+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:32.259678+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:32.259679+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:32.259681+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:378:in `block in require_or_load'
+2019-05-06T22:31:32.259683+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+2019-05-06T22:31:32.259684+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+2019-05-06T22:31:32.259686+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+2019-05-06T22:31:32.259691+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+2019-05-06T22:31:32.259693+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+2019-05-06T22:31:32.259694+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+2019-05-06T22:31:32.259696+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+2019-05-06T22:31:32.259698+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+2019-05-06T22:31:32.259699+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+2019-05-06T22:31:32.259701+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:334:in `depend_on'
+2019-05-06T22:31:32.259703+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:85:in `depend_on'
+2019-05-06T22:31:32.259707+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:246:in `require_dependency'
+2019-05-06T22:31:32.259709+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:478:in `block (2 levels) in eager_load!'
+2019-05-06T22:31:32.259710+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:477:in `each'
+2019-05-06T22:31:32.259712+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:477:in `block in eager_load!'
+2019-05-06T22:31:32.259714+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:475:in `each'
+2019-05-06T22:31:32.259715+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:475:in `eager_load!'
+2019-05-06T22:31:32.259717+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:356:in `eager_load!'
+2019-05-06T22:31:32.259719+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:69:in `each'
+2019-05-06T22:31:32.259726+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+2019-05-06T22:31:32.259728+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `instance_exec'
+2019-05-06T22:31:32.259730+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `run'
+2019-05-06T22:31:32.259731+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+2019-05-06T22:31:32.259733+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+2019-05-06T22:31:32.259734+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2019-05-06T22:31:32.259736+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2019-05-06T22:31:32.259740+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2019-05-06T22:31:32.259742+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each'
+2019-05-06T22:31:32.259743+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `call'
+2019-05-06T22:31:32.259745+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+2019-05-06T22:31:32.259747+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+2019-05-06T22:31:32.259748+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+2019-05-06T22:31:32.259750+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+2019-05-06T22:31:32.259751+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+2019-05-06T22:31:32.259755+00:00 app[web.1]: from /app/config/environment.rb:5:in `<top (required)>'
+2019-05-06T22:31:32.259757+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:32.259759+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259760+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:32.259762+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259763+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:32.259769+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:32.259773+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:32.259775+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:32.259777+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `require_relative'
+2019-05-06T22:31:32.259778+00:00 app[web.1]: from config.ru:3:in `block in <main>'
+2019-05-06T22:31:32.259780+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+2019-05-06T22:31:32.259781+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+2019-05-06T22:31:32.259783+00:00 app[web.1]: from config.ru:in `new'
+2019-05-06T22:31:32.259785+00:00 app[web.1]: from config.ru:in `<main>'
+2019-05-06T22:31:32.259789+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `eval'
+2019-05-06T22:31:32.259790+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `new_from_string'
+2019-05-06T22:31:32.259792+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:40:in `parse_file'
+2019-05-06T22:31:32.259793+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:319:in `build_app_and_options_from_config'
+2019-05-06T22:31:32.259795+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:219:in `app'
+2019-05-06T22:31:32.259796+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:27:in `app'
+2019-05-06T22:31:32.259798+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:354:in `wrapped_app'
+2019-05-06T22:31:32.259803+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:283:in `start'
+2019-05-06T22:31:32.259804+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:53:in `start'
+2019-05-06T22:31:32.259805+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:147:in `block in perform'
+2019-05-06T22:31:32.259807+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `tap'
+2019-05-06T22:31:32.259809+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `perform'
+2019-05-06T22:31:32.259810+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+2019-05-06T22:31:32.259815+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+2019-05-06T22:31:32.259816+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+2019-05-06T22:31:32.259822+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command/base.rb:65:in `perform'
+2019-05-06T22:31:32.259824+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command.rb:46:in `invoke'
+2019-05-06T22:31:32.259825+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands.rb:18:in `<top (required)>'
+2019-05-06T22:31:32.259827+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:32.259832+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259834+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:32.259835+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:32.259837+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:32.259839+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:32.259840+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:32.259842+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:32.259846+00:00 app[web.1]: from bin/rails:9:in `<main>'
+2019-05-06T22:31:32.267581+00:00 app[web.1]: => Booting Puma
+2019-05-06T22:31:32.267585+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-06T22:31:32.267587+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-06T22:31:32.267588+00:00 app[web.1]: Exiting
+2019-05-06T22:31:39.067923+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 26894 -e production`
+2019-05-06T22:31:44.932566+00:00 heroku[web.1]: State changed from starting to crashed
+2019-05-06T22:31:44.801978+00:00 app[web.1]: (erb):6:in `<main>': undefined method `[]' for nil:NilClass (NoMethodError)
+2019-05-06T22:31:44.802006+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/erb.rb:876:in `eval'
+2019-05-06T22:31:44.802008+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/erb.rb:876:in `result'
+2019-05-06T22:31:44.802015+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/lib/active_storage/engine.rb:95:in `block (2 levels) in <class:Engine>'
+2019-05-06T22:31:44.802020+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `instance_eval'
+2019-05-06T22:31:44.802022+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:71:in `block in execute_hook'
+2019-05-06T22:31:44.802023+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:62:in `with_execution_control'
+2019-05-06T22:31:44.802025+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:67:in `execute_hook'
+2019-05-06T22:31:44.802026+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:52:in `block in run_load_hooks'
+2019-05-06T22:31:44.802031+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `each'
+2019-05-06T22:31:44.802033+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/lazy_load_hooks.rb:51:in `run_load_hooks'
+2019-05-06T22:31:44.802034+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/app/models/active_storage/blob.rb:235:in `<class:Blob>'
+2019-05-06T22:31:44.802036+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activestorage-5.2.3/app/models/active_storage/blob.rb:16:in `<top (required)>'
+2019-05-06T22:31:44.802037+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:44.802045+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802047+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:44.802051+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802053+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:44.802054+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:44.802056+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:44.802057+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:44.802059+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:378:in `block in require_or_load'
+2019-05-06T22:31:44.802060+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `block in load_interlock'
+2019-05-06T22:31:44.802062+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:14:in `block in loading'
+2019-05-06T22:31:44.802063+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/concurrency/share_lock.rb:151:in `exclusive'
+2019-05-06T22:31:44.802065+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies/interlock.rb:13:in `loading'
+2019-05-06T22:31:44.802066+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:37:in `load_interlock'
+2019-05-06T22:31:44.802068+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:356:in `require_or_load'
+2019-05-06T22:31:44.802071+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:48:in `block in require_or_load'
+2019-05-06T22:31:44.802073+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:16:in `allow_bootsnap_retry'
+2019-05-06T22:31:44.802074+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:47:in `require_or_load'
+2019-05-06T22:31:44.802076+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:334:in `depend_on'
+2019-05-06T22:31:44.802077+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/active_support.rb:85:in `depend_on'
+2019-05-06T22:31:44.802079+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:246:in `require_dependency'
+2019-05-06T22:31:44.802082+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:478:in `block (2 levels) in eager_load!'
+2019-05-06T22:31:44.802088+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:477:in `each'
+2019-05-06T22:31:44.802089+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:477:in `block in eager_load!'
+2019-05-06T22:31:44.802093+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:475:in `each'
+2019-05-06T22:31:44.802095+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:475:in `eager_load!'
+2019-05-06T22:31:44.802096+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/engine.rb:356:in `eager_load!'
+2019-05-06T22:31:44.802100+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:69:in `each'
+2019-05-06T22:31:44.802102+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application/finisher.rb:69:in `block in <module:Finisher>'
+2019-05-06T22:31:44.802105+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `instance_exec'
+2019-05-06T22:31:44.802109+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:32:in `run'
+2019-05-06T22:31:44.802112+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:61:in `block in run_initializers'
+2019-05-06T22:31:44.802116+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+2019-05-06T22:31:44.802119+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2019-05-06T22:31:44.802122+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2019-05-06T22:31:44.802126+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2019-05-06T22:31:44.802129+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each'
+2019-05-06T22:31:44.802132+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `call'
+2019-05-06T22:31:44.802136+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+2019-05-06T22:31:44.802159+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+2019-05-06T22:31:44.802161+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+2019-05-06T22:31:44.802162+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+2019-05-06T22:31:44.802167+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+2019-05-06T22:31:44.802176+00:00 app[web.1]: from /app/config/environment.rb:5:in `<top (required)>'
+2019-05-06T22:31:44.802181+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:44.802183+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802184+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:44.802186+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802190+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:44.802192+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:44.802195+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:44.802197+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:44.802201+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `require_relative'
+2019-05-06T22:31:44.802210+00:00 app[web.1]: from config.ru:3:in `block in <main>'
+2019-05-06T22:31:44.802215+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+2019-05-06T22:31:44.802217+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+2019-05-06T22:31:44.802225+00:00 app[web.1]: from config.ru:in `new'
+2019-05-06T22:31:44.802231+00:00 app[web.1]: from config.ru:in `<main>'
+2019-05-06T22:31:44.802232+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `eval'
+2019-05-06T22:31:44.802234+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `new_from_string'
+2019-05-06T22:31:44.802235+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:40:in `parse_file'
+2019-05-06T22:31:44.802240+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:319:in `build_app_and_options_from_config'
+2019-05-06T22:31:44.802241+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:219:in `app'
+2019-05-06T22:31:44.802245+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:27:in `app'
+2019-05-06T22:31:44.802247+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:354:in `wrapped_app'
+2019-05-06T22:31:44.802250+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:283:in `start'
+2019-05-06T22:31:44.802254+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:53:in `start'
+2019-05-06T22:31:44.802257+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:147:in `block in perform'
+2019-05-06T22:31:44.802261+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `tap'
+2019-05-06T22:31:44.802268+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `perform'
+2019-05-06T22:31:44.802272+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+2019-05-06T22:31:44.802273+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+2019-05-06T22:31:44.802277+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+2019-05-06T22:31:44.802283+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command/base.rb:65:in `perform'
+2019-05-06T22:31:44.802284+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command.rb:46:in `invoke'
+2019-05-06T22:31:44.802288+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands.rb:18:in `<top (required)>'
+2019-05-06T22:31:44.802291+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-05-06T22:31:44.802325+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802327+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-05-06T22:31:44.802328+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-05-06T22:31:44.802330+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-05-06T22:31:44.802334+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-05-06T22:31:44.802336+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-05-06T22:31:44.802337+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-05-06T22:31:44.802341+00:00 app[web.1]: from bin/rails:9:in `<main>'
+2019-05-06T22:31:44.810674+00:00 app[web.1]: => Booting Puma
+2019-05-06T22:31:44.810677+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-05-06T22:31:44.810678+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-05-06T22:31:44.810680+00:00 app[web.1]: Exiting
+2019-05-06T22:31:44.913299+00:00 heroku[web.1]: Process exited with status 1
+2019-05-06T22:31:47.423617+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shuttr.herokuapp.com request_id=bd773612-de86-41eb-8714-7339c3690448 fwd="4.14.104.186" dyno= connect= service= status=503 bytes= protocol=https
+2019-05-06T22:33:15.878124+00:00 app[api]: Starting process with command `rails db:seed` by user mattjang95@gmail.com
+2019-05-06T22:33:24.461198+00:00 heroku[run.9100]: State changed from starting to up
+2019-05-06T22:33:24.414749+00:00 heroku[run.9100]: Awaiting client
+2019-05-06T22:33:24.465374+00:00 heroku[run.9100]: Starting process with command `rails db:seed`
+2019-05-06T22:33:34.746154+00:00 heroku[run.9100]: State changed from up to complete
+2019-05-06T22:33:34.729915+00:00 heroku[run.9100]: Process exited with status 1
+2019-05-06T22:33:39.445995+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shuttr.herokuapp.com request_id=0c41b87f-8b34-4799-8b11-782cfe5c6505 fwd="4.14.104.186" dyno= connect= service= status=503 bytes= protocol=https
+2019-05-06T22:33:40.022352+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=b03b4a29-b56e-469d-b9e5-fb336dfc08d9 fwd="4.14.104.186" dyno= connect= service= status=503 bytes= protocol=https
+2019-05-06T22:33:58.443909+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=shuttr.herokuapp.com request_id=3950011b-4c5b-4df6-b84d-dda1d08037d6 fwd="4.14.104.186" dyno= connect= service= status=503 bytes= protocol=https
+2019-05-06T22:33:59.486229+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=shuttr.herokuapp.com request_id=650e82bb-0f80-43e8-bbcd-c77f30608016 fwd="4.14.104.186" dyno= connect= service= status=503 bytes= protocol=https
