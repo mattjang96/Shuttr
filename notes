@@ -1,0 +1,7 @@
+1. Heroku problem: must set masterkey
+2. Heroku problem: must set dev in development config file
+3. Heroku problem: aws seed bucket won't display on Heroku
+4. User Auth: Demo login - need to seed a sample demo user credentials 
+5. Sign up has more required (not null) fields than Log in form.
+    Solution: Write separate forms for sign up and log in 
+6. 
