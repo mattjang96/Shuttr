@@ -3,7 +3,6 @@ import React from 'react';
 class Signup extends React.Component {
     constructor(props) {
         super(props);
-        // separate sign up form, because it will have more fields than log in form
         this.state = {
             fname: '',
             lname: '',

@@ -19,3 +19,6 @@ export const fetchUsers = () => {
         url: `/api/photos`
     })
 };
+
+// for testing
+window.signup = signup;
