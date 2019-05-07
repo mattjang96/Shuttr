@@ -2,18 +2,18 @@ body {
   background: rgb(243, 245, 246)
 }
 
-// .photos-index-container {
-//   margin-top: 5px;
-//   width: 1080px;
-//   margin-right: auto;
-//   margin-left: auto;
-//   -webkit-column-count: 4;
-//   -webkit-column-gap:   4px;
-//   -moz-column-count:    4;
-//   -moz-column-gap:      4px;
-//   column-count:         4;
-//   column-gap:           4px;
-// }
+.photos-index-container {
+  margin-top: 5px;
+  width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  column-count: 4;
+  column-gap: 4px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 4px;
+  -moz-column-count: 4;
+  -moz-column-gap: 4px;
+}
 
 .photos-index-div {
   margin-bottom: 2.5px;
