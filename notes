@@ -4,4 +4,4 @@
 4. User Auth: Demo login - need to seed a sample demo user credentials 
 5. Sign up has more required (not null) fields than Log in form.
     Solution: Write separate forms for sign up and log in 
-6. 
+6. Add spaces between errors and fields

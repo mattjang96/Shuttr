@@ -21,7 +21,7 @@ html, body, div {
 }
 
 body {
-  padding-top: 128px;
+  padding-top: 120px;
 }
 
 .header {
@@ -29,10 +29,11 @@ body {
   left: 0;
   width: 100%;
   position: fixed;
-  background: rgba(0,0,0,.20);
+  background: black;
   height: 64px;
   padding: 0 24px;
   z-index: 2;
+  opacity: 1;
 }
 
 .header1 {
@@ -69,7 +70,7 @@ body {
   font-size: 28px;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(255, 255, 255);
+  color: white;
   margin-right: 40px;
 }
 
@@ -86,7 +87,7 @@ body {
 }
 
 .login-button {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .signup-button-div {
@@ -98,15 +99,14 @@ body {
 }
 
 .signup-button {
-  background: rgb(255, 255, 255);
-  padding: 8px 20px;
-  border-radius: 3px;
-  font-weight: bold;
+  background: white;
+  padding: 8px 18px;
+  border-radius: 5px;
 }
 
 .signup-button:hover {
+  color: rgb(18, 143, 220);
   transition: 0.2s;
-  color: gray;
 }
 
 .logout-button {
@@ -147,12 +147,28 @@ body {
   z-index: -2;
 }
 
+@keyframes fade1 {
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 1}
+}
+
 .slide2 {
   background-image: image_url("wolf.jpg");
   background-size: cover;
   animation: fade2 36s infinite;
   -webkit-animation: fade2 36s infinite;
   z-index: -2;
+}
+
+@keyframes fade2 {
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0}
+  75% { opacity: 0}
+  100% { opacity: 0}
 }
 
 .slide3 {
@@ -163,6 +179,14 @@ body {
   z-index: -2;
 }
 
+@keyframes fade3 {
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0}
+  100% { opacity: 0}
+}
+
 .slide4 {
   background-image: image_url("sf.jpg");
   background-size: cover;
@@ -171,27 +195,6 @@ body {
   z-index: -2;
 }
 
-@keyframes fade1 {
-  0%   {opacity:1}
-  25% { opacity: 0}
-  50% { opacity: 0}
-  75% { opacity: 0}
-  100% { opacity: 1}
-}
-@keyframes fade2 {
-  0%   {opacity:0}
-  25% { opacity: 1}
-  50% { opacity: 0}
-  75% { opacity: 0}
-  100% { opacity: 0}
-}
-@keyframes fade3 {
-  0%   {opacity:0}
-  25% { opacity: 0}
-  50% { opacity: 1}
-  75% { opacity: 0}
-  100% { opacity: 0}
-}
 @keyframes fade4 {
   0%   {opacity:0}
   25% { opacity: 0}

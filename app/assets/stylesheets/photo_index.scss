@@ -3,30 +3,30 @@ body {
 }
 
 .photos-index-container {
-  margin-top: 5px;
   width: 1080px;
-  margin-right: auto;
+  margin-top: 5px;
   margin-left: auto;
-  column-count: 4;
-  column-gap: 4px;
+  margin-right: auto;
+  column-count: 4; 
   -webkit-column-count: 4;
-  -webkit-column-gap: 4px;
   -moz-column-count: 4;
+  column-gap: 4px;
+  -webkit-column-gap: 4px;
   -moz-column-gap: 4px;
 }
 
 .photos-index-div {
-  margin-bottom: 2.5px;
   position: relative;
+  margin-bottom: 2.5px;
 }
 
 .photo-index-detail {
   position: absolute;
+  font-size: 15px;
   bottom: 10px;
   left: 10px;
   color: white;
   opacity: 0;
-  font-size: 15px;
 }
 
 .the-box {
@@ -40,15 +40,6 @@ body {
   height: 40px;
 }
 
-
-.photos-index-div:hover .the-box {
-  opacity: 1;
-}
-
-.photos-index-div:hover .photo-index-detail {
-  opacity: 1;
-}
-
 .photo-index-username {
   margin: 0;
   font-size: 11.5px;
@@ -59,3 +50,12 @@ body {
   width: 100% !important;
   height: auto !important;
 }
+
+.photos-index-div:hover .the-box {
+  opacity: 1;
+}
+
+.photos-index-div:hover .photo-index-detail {
+  opacity: 1;
+}
+
