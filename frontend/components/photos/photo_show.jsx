@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import CommentIndexContainer from '../comments/comment_index_container';
+import CommentIndexContainer from '../comments/comment_index_container';
 
 class PhotoShow extends React.Component {
     constructor(props) {
@@ -60,7 +60,7 @@ class PhotoShow extends React.Component {
                 <div className="photo-info">
                     <div className="right-border">
                         {photoInfo}
-                        {/* <CommentIndexContainer photoId={this.props.photo.id} /> */}
+                        <CommentIndexContainer photoId={this.props.photo.id} />
                     </div>
 
                     <div className="tag-info">
