@@ -12,6 +12,8 @@
   background-image: image_url("tree.jpg");
   background-position: center;
   background-size: cover;
+  font-size: 15px;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .login-session-form > form {
@@ -65,12 +67,14 @@
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .no-account {
   margin-top: 10px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: .875rem;
 }
 
 .logo {

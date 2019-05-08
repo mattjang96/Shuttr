@@ -79,7 +79,7 @@ class Login extends React.Component {
                     <button className="login" onClick={this.handleSubmit}>Log In</button>
 
                     <button className="demo-login" onClick={this.handleDemo}>Demo User</button>
-                    <p className="no-account">Need an account? <a className="signup-link" href="/#/signup">Sign up</a></p>
+                    <p className="no-account">Not a Shuttr member? <a className="signup-link" href="/#/signup">Sign up!</a></p>
                 </form>
             </div>
         );

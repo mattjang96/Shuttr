@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background: rgb(37, 37, 37);
+  background: black;
 }
 
 .create-photo-title {
@@ -40,7 +40,6 @@
   padding: 5px 0;
   text-align: center;
   border-radius: 4px;
-  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -50,7 +49,6 @@
   padding: 5px 0;
   text-align: center;
   border-radius: 4px;
-  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -62,13 +60,13 @@
   height: 100%;
 }
 
-.fake-button {
+.my-button {
   position: relative;
   color: white;
   background: rgb(0, 99, 220);
-  padding: 11px 90.14px;
+  padding: 11px 90px;
   border-radius: 4px;
-  width: 201px;
+  width: 120px;
   display: inline-block;
 }
 

@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .signup-session-form > form {
@@ -39,29 +40,37 @@
   justify-content: space-between;
   width: 290px;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .firstname {
   width: 130px;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .lastname {
   width: 130px;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .email {
   width: 280px;
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .username {
   width: 280px;
   margin-bottom: 10px;
+  font-size: 15px;
+  font-size: 15px;
 }
 
 .password {
   width: 280px;
   margin-bottom: 20px;
+  font-size: 15px;
+  font-size: 15px;
 }
 
 input[type="password"], input[type="text"], input[type="email"] {
@@ -81,7 +90,7 @@ input[type="password"], input[type="text"], input[type="email"] {
   text-align: center;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
@@ -93,4 +102,6 @@ input[type="password"], input[type="text"], input[type="email"] {
 
 .signup-link {
   color: blue;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: .875rem;
 }

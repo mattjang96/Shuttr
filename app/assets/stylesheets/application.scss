@@ -88,6 +88,7 @@ body {
 
 .login-button {
   color: white;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
 }
 
 .signup-button-div {
@@ -102,10 +103,12 @@ body {
   background: white;
   padding: 8px 18px;
   border-radius: 5px;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
+  font-weight: 700;
 }
 
 .signup-button:hover {
-  color: rgb(18, 143, 220);
+  color: orange;
   transition: 0.2s;
 }
 
@@ -249,5 +252,6 @@ body {
 
 .sign-up:hover {
   transition: 0.2s;
-  color: gray;
+  background: white;
+  color: orange;
 }
