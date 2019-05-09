@@ -5,4 +5,6 @@
 5. Sign up has more required (not null) fields than Log in form.
     Solution: Write separate forms for sign up and log in 
 6. Add spaces between errors and fields
+7. Remove dubuggers and console.log before pushing to heroku
+
 

@@ -5,7 +5,7 @@
   right: 0;
   left: 0;
   z-index: -1;
-  background-image: image_url("tree.jpg");
+  background-image: image_url("city.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -97,7 +97,9 @@ input[type="password"], input[type="text"], input[type="email"] {
 .signup-errors {
   text-align: center;
   color: red;
-  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+  font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
+  font-size: 15px;
 }
 
 .signup-link {

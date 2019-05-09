@@ -49,6 +49,7 @@ class Signup extends React.Component {
                     <div className="logo"></div>
                     <h2>Sign Up</h2>
                     {this.renderErrors()}
+                    <br></br>
                     <div className="signup-name">
                         <input type="text"
                             value={this.state.fname}
