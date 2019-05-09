@@ -10,12 +10,11 @@ Thanks for visiting!
 
 ## Features 
 
-- Secure frontend to backend user authentication using BCrypt.
-- Users can see all the photos and albums ever uploaded and created.
+- Secure User Authentication for both frontend and backend using BCrypt.
+- Users can log in as a demo user.
+- Users can see universal photos created by all users.
 - Users can upload photos and edit the text associated with the photos only if they are the owner.
-- Users can create albums with photos that they own and make as many albums as they want.
 - Users can comment directly on the photo's show page and see their comment appear.
-- Users can add tags directly to the photo on the photo's show page.
 
 ## Site 
 
