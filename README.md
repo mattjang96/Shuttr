@@ -14,6 +14,7 @@ Thanks for visiting!
 - Users can log in as a demo user.
 - Users can see universal photos created by all users.
 - Users can upload photos and edit the text associated with the photos only if they are the owner.
+- Users can organize their own photos into albums.
 - Users can comment directly on the photo's show page and see their comment appear.
 
 ## Site 
@@ -36,5 +37,5 @@ Thanks for visiting!
 ## Coming Soon
 
 - Search Bar + Functionality
-- Albums 
+- Explore JavaScript features
 - Tags
