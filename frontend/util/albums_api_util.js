@@ -13,7 +13,7 @@ export const fetchAlbum = (id) => {
     })
 }
 
-// high chance of coming back to edit
+
 export const createAlbum = (album) => {
     return $.ajax({
         method: "POST",
