@@ -289,9 +289,65 @@ photo29.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.c
 photo29.save!
 
 photo30 = Photo.new({
-  title: "Seed",
-  description: "Week 2 of my new seed",
+  title: "Camera",
+  description: "My new camera",
   user: user1,
 })
-photo30.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seed.jpg'), filename: 'seed.jpg')
+photo30.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camera.jpg'), filename: 'camera.jpg')
 photo30.save!
+
+photo31 = Photo.new({
+  title: "Wave",
+  description: "Caught a wave in action.",
+  user: user2,
+})
+photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wave.jpg'), filename: 'wave.jpg')
+photo31.save!
+
+photo31 = Photo.new({
+  title: "Wall",
+  description: "Graffiti on a red wall",
+  user: user3,
+})
+photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wall.jpg'), filename: 'wall.jpg')
+photo31.save!
+
+photo32 = Photo.new({
+  title: "Desert",
+  description: "Desert trip! Will come again soon.",
+  user: user4,
+})
+photo32.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/desert.jpg'), filename: 'desert.jpg')
+photo32.save!
+
+photo33 = Photo.new({
+  title: "City in the Night",
+  description: "The view from my new apartment",
+  user: user1,
+})
+photo33.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/nightcity.jpg'), filename: 'nightcity.jpg')
+photo33.save!
+
+photo34 = Photo.new({
+  title: "Camping",
+  description: "It was a great camping trip.",
+  user: user2,
+})
+photo34.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camper.jpg'), filename: 'camper.jpg')
+photo34.save!
+
+photo35 = Photo.new({
+  title: "Tent",
+  description: "The view from my tent at Yosemite",
+  user: user4,
+})
+photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/tent.jpg'), filename: 'tent.jpg')
+photo35.save!
+
+photo36 = Photo.new({
+  title: "Omega Seamaster 300m",
+  description: "My grail watch",
+  user: user4,
+})
+photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster.jpg'), filename: 'seamaster.jpg')
+photo35.save!
