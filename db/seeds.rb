@@ -287,3 +287,11 @@ photo29 = Photo.new({
 })
 photo29.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/squirrel.jpg'), filename: 'squirrel.jpg')
 photo29.save!
+
+photo30 = Photo.new({
+  title: "Seed",
+  description: "Week 2 of my new seed",
+  user: user1,
+})
+photo30.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seed.jpg'), filename: 'seed.jpg')
+photo30.save!
