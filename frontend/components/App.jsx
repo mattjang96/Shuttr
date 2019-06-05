@@ -17,6 +17,7 @@ import UserContainer from './user/user_container';
 import UserPhotosContainer from './user/user_photos_container';
 import UserAlbumsContainer from './user/user_albums_container';
 // import Splash from './session_form/splash.jsx';
+import Footer from './footer/footer';
 import Splash from './splash/splash';
 import { AuthRoute, ProtectedRoute } from '../util/route_util';
 
@@ -24,6 +25,7 @@ const App = () => (
     <div>
     <Route path="/" component={NavBarContainer} />
     <Route exact path ="/" component={Splash} />
+    <Route exact path="/" component={Footer} />
     <Route path="/photos" component={SecondNavBar} />
     <Route path="/albums" component={SecondNavBar} />
     <ProtectedRoute path="/users/:userId" component={UserContainer} />
