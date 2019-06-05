@@ -254,3 +254,36 @@ photo25 = Photo.new({
 })
 photo25.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lake.jpg'), filename: 'lake.jpg')
 photo25.save!
+
+photo26 = Photo.new({
+  title: "Seed",
+  description: "Week 2 of my new seed",
+  user: user1,
+})
+photo26.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seed.jpg'), filename: 'seed.jpg')
+photo26.save!
+
+photo27 = Photo.new({
+  title: "Sky",
+  description: "During my night run",
+  user: user2,
+})
+photo27.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/sky.jpg'), filename: 'sky.jpg')
+photo27.save!
+
+
+photo28 = Photo.new({
+  title: "Beach",
+  description: "Nice day at the beach!",
+  user: user3,
+})
+photo28.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/cloud.jpg'), filename: 'cloud.jpg')
+photo28.save!
+
+photo29 = Photo.new({
+  title: "Squirrel",
+  description: "Saw this kind squirrel today near school",
+  user: user4,
+})
+photo29.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/squirrel.jpg'), filename: 'squirrel.jpg')
+photo29.save!
