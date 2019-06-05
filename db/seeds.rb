@@ -351,3 +351,4 @@ photo36 = Photo.new({
 })
 photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster.jpg'), filename: 'seamaster.jpg')
 photo35.save!
+
