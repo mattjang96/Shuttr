@@ -349,6 +349,45 @@ photo36 = Photo.new({
   description: "My grail watch",
   user: user4,
 })
-photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster.jpg'), filename: 'seamaster.jpg')
-photo35.save!
+photo36.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster.jpg'), filename: 'seamaster.jpg')
+photo36.save!
 
+photo37 = Photo.new({
+  title: "Greece".
+  description: "Boatside view of my stay",
+  user: user
+})
+photo37.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greece.jpg'), filename: 'greece.jpg')
+photo37.save!
+
+phot038 = Photo.new({
+  title: "Greece from Above",
+  description: "Drone shot of the beach",
+  user: user
+})
+photo38.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/drone.jpg'), filename: 'drone.jpg')
+photo38.save!
+
+photo39 = Photo.new({
+  title: "Greece from the boat",
+  description: "Greece buildings during my boat ride",
+  user: user
+})
+photo39.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greeceboat.jpg'), filename: 'greeceboat.jpg')
+photo39.save!
+
+photo40 = Photo.new({
+  title: "Greece Street",
+  description: "Street Photography at Greece",
+  user: user
+})
+photo40.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecestreet.jpg'), filename: 'greecestreet.jpg')
+photo40.save!
+
+photo41 = Photo.new({
+  title: "Greece Corner",
+  description: "Alleyway at Greece",
+  user: user
+})
+photo41.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecealley.jpg'), filename: 'greecealley.jpg')
+photo41.save!
