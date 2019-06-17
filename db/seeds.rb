@@ -13,7 +13,6 @@ Photo.destroy_all
 Album.destroy_all
 PhotoAlbum.destroy_all
 Comment.destroy_all
-Tag.destroy_all
 
 user = User.create!({
   fname: "demo", 
