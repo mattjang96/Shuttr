@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  
 }
 
 .back-image-div {
@@ -23,6 +24,8 @@
   width: 1000px;
   overflow: hidden;
   filter: brightness(55%);
+  // object-fit
+  // photo show page taller
 }
 
 .album-info {

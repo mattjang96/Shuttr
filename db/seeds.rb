@@ -59,7 +59,7 @@ photo1 = Photo.new({
   description: "beach house",
   user: user1,
 })
-photo1.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/apartment.jpg'), filename: 'apartment.jpg')
+photo1.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/apartment1.jpg'), filename: 'apartment1.jpg')
 photo1.save!
 
 photo2 = Photo.new({
@@ -352,7 +352,7 @@ photo36.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.c
 photo36.save!
 
 photo37 = Photo.new({
-  title: "Greece".
+  title: "Greece",
   description: "Boatside view of my stay",
   user: user1,
 })

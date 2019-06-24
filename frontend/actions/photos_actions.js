@@ -12,7 +12,7 @@ const receiveAllPhotos = (photos) => {
     })
 }
 
-const receivePhoto = (photo) => {
+const receivePhoto = (photo) => {2
     return ({
         type: RECEIVE_PHOTO,
         photo: photo
