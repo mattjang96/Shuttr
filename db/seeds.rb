@@ -348,7 +348,7 @@ photo36 = Photo.new({
   description: "My grail watch",
   user: user4,
 })
-photo36.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster.jpg'), filename: 'seamaster.jpg')
+photo36.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seamaster1.jpg'), filename: 'seamaster1.jpg')
 photo36.save!
 
 photo37 = Photo.new({
@@ -356,7 +356,7 @@ photo37 = Photo.new({
   description: "Boatside view of my stay",
   user: user1,
 })
-photo37.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greece.jpg'), filename: 'greece.jpg')
+photo37.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greece1.jpg'), filename: 'greece1.jpg')
 photo37.save!
 
 phot038 = Photo.new({
@@ -364,7 +364,7 @@ phot038 = Photo.new({
   description: "Drone shot of the beach",
   user: user2,
 })
-photo38.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/drone.jpg'), filename: 'drone.jpg')
+photo38.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/drone1.jpg'), filename: 'drone1.jpg')
 photo38.save!
 
 photo39 = Photo.new({
@@ -372,7 +372,7 @@ photo39 = Photo.new({
   description: "Greece buildings during my boat ride",
   user: user3,
 })
-photo39.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greeceboat.jpg'), filename: 'greeceboat.jpg')
+photo39.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greeceboat1.jpg'), filename: 'greeceboat1.jpg')
 photo39.save!
 
 photo40 = Photo.new({
