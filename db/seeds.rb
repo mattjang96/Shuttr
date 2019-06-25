@@ -284,7 +284,7 @@ photo29 = Photo.new({
   description: "Saw this kind squirrel today near school",
   user: user4,
 })
-photo29.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/squirrel.jpg'), filename: 'squirrel.jpg')
+photo29.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/squirrel1.jpg'), filename: 'squirrel1.jpg')
 photo29.save!
 
 photo30 = Photo.new({
@@ -292,7 +292,7 @@ photo30 = Photo.new({
   description: "My new camera",
   user: user1,
 })
-photo30.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camera.jpg'), filename: 'camera.jpg')
+photo30.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camera1.jpg'), filename: 'camera1.jpg')
 photo30.save!
 
 photo31 = Photo.new({
@@ -300,7 +300,7 @@ photo31 = Photo.new({
   description: "Caught a wave in action.",
   user: user2,
 })
-photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wave.jpg'), filename: 'wave.jpg')
+photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wave1.jpg'), filename: 'wave1.jpg')
 photo31.save!
 
 photo31 = Photo.new({
@@ -308,7 +308,7 @@ photo31 = Photo.new({
   description: "Graffiti on a red wall",
   user: user3,
 })
-photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wall.jpg'), filename: 'wall.jpg')
+photo31.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wall1.jpg'), filename: 'wall1.jpg')
 photo31.save!
 
 photo32 = Photo.new({
@@ -316,7 +316,7 @@ photo32 = Photo.new({
   description: "Desert trip! Will come again soon.",
   user: user4,
 })
-photo32.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/desert.jpg'), filename: 'desert.jpg')
+photo32.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/desert1.jpg'), filename: 'desert1.jpg')
 photo32.save!
 
 photo33 = Photo.new({
