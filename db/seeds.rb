@@ -67,7 +67,7 @@ photo2 = Photo.new({
   description: "Cathedral",
   user: user1,
 })
-photo2.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/arches.jpg'), filename: 'arches.jpg')
+photo2.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/arches1.jpg'), filename: 'arches1.jpg')
 photo2.save!
 
 photo3 = Photo.new({
@@ -75,7 +75,7 @@ photo3 = Photo.new({
   description: "Symmetry and organized windows",
   user: user1,
 })
-photo3.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/art_building.jpg'), filename: 'art_building.jpg')
+photo3.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/art_building1.jpg'), filename: 'art_building1.jpg')
 photo3.save!
 
 photo4 = Photo.new({
@@ -83,7 +83,7 @@ photo4 = Photo.new({
   description: "Architect working on a blueprint",
   user: user1,
 })
-photo4.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/blueprint.jpg'), filename: 'blueprint.jpg')
+photo4.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/blueprint1.jpg'), filename: 'blueprint1.jpg')
 photo4.save!
 
 photo5 = Photo.new({
@@ -91,7 +91,7 @@ photo5 = Photo.new({
   description: "Black and White photography of my backyard",
   user: user1,
 })
-photo5.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/boardwalk.jpg'), filename: 'boardwalk.jpg')
+photo5.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/boardwalk1.jpg'), filename: 'boardwalk1.jpg')
 photo5.save!
 
 photo6 = Photo.new({
@@ -99,7 +99,7 @@ photo6 = Photo.new({
   description: "The line between math and art blends",
   user: user4,
 })
-photo6.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lines.jpg'), filename: 'lines.jpg')
+photo6.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/lines1.jpg'), filename: 'lines1.jpg')
 photo6.save!
 
 photo7 = Photo.new({
@@ -107,7 +107,7 @@ photo7 = Photo.new({
   description: "Ground view of the giants",
   user: user4,
 })
-photo7.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/skyscrapers.jpg'), filename: 'skyscrapers.jpg')
+photo7.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/skyscrapers1.jpg'), filename: 'skyscrapers1.jpg')
 photo7.save!
 
 photo8 = Photo.new({
@@ -115,7 +115,7 @@ photo8 = Photo.new({
   description: "Building with fluid design",
   user: user3,
 })
-photo8.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/fluid.jpg'), filename: 'fluid.jpg')
+photo8.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/fluid1.jpg'), filename: 'fluid1.jpg')
 photo8.save!
 
 photo9 = Photo.new({
@@ -123,7 +123,7 @@ photo9 = Photo.new({
   description: "Escalators side view",
   user: user1,
 })
-photo9.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/mall.jpg'), filename: 'mall.jpg')
+photo9.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/mall1.jpg'), filename: 'mall1.jpg')
 photo9.save!
 
 photo10 = Photo.new({
@@ -131,7 +131,7 @@ photo10 = Photo.new({
   description: "Buildings reflection",
   user: user2,
 })
-photo10.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/reflect.jpg'), filename: 'reflect.jpg')
+photo10.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/reflect1.jpg'), filename: 'reflect1.jpg')
 photo10.save!
 
 photo11 = Photo.new({
@@ -139,7 +139,7 @@ photo11 = Photo.new({
   description: "The world sure is large",
   user: user3,
 })
-photo11.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/city.jpg'), filename: 'city.jpg')
+photo11.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/city1.jpg'), filename: 'city1.jpg')
 photo11.save!
 
 photo12 = Photo.new({
@@ -147,7 +147,7 @@ photo12 = Photo.new({
   description: "Interior design ideas",
   user: user4,
 })
-photo12.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/interior.jpg'), filename: 'interior.jpg')
+photo12.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/interior1.jpg'), filename: 'interior1.jpg')
 photo12.save!
 
 photo13 = Photo.new({
@@ -155,7 +155,7 @@ photo13 = Photo.new({
   description: "Bright, colorful buildings I came across",
   user: user3,
 })
-photo13.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/colorful.jpg'), filename: 'colorful.jpg')
+photo13.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/colorful1.jpg'), filename: 'colorful1.jpg')
 photo13.save!
 
 photo14 = Photo.new({
@@ -163,7 +163,7 @@ photo14 = Photo.new({
   description: "Bird's eye view of the city",
   user: user4,
 })
-photo14.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/aerial.jpg'), filename: 'aerial.jpg')
+photo14.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/aerial1.jpg'), filename: 'aerial1.jpg')
 photo14.save!
 
 photo15 = Photo.new({
@@ -171,7 +171,7 @@ photo15 = Photo.new({
   description: "Conveniently placed airplane in the middle of the city",
   user: user2,
 })
-photo15.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/airplane.jpg'), filename: 'airplane.jpg')
+photo15.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/airplane1.jpg'), filename: 'airplane1.jpg')
 photo15.save!
 
 photo16 = Photo.new({
@@ -179,7 +179,7 @@ photo16 = Photo.new({
   description: "Obligatory and generic tourist pic",
   user: user1,
 })
-photo16.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/bridge.jpg'), filename: 'bridge.jpg')
+photo16.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/bridge1.jpg'), filename: 'bridge1.jpg')
 photo16.save!
 
 photo17 = Photo.new({
@@ -187,7 +187,7 @@ photo17 = Photo.new({
   description: "Boat ride in Italy",
   user: user3,
 })
-photo17.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/italy.jpg'), filename: 'italy.jpg')
+photo17.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/italy1.jpg'), filename: 'italy1.jpg')
 photo17.save!
 
 photo18 = Photo.new({
@@ -195,7 +195,7 @@ photo18 = Photo.new({
   description: "Morning sunshine through the window",
   user: user4,
 })
-photo18.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/sunshine.jpg'), filename: 'sunshine.jpg')
+photo18.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/sunshine1.jpg'), filename: 'sunshine1.jpg')
 photo18.save!
 
 photo19 = Photo.new({
@@ -203,7 +203,7 @@ photo19 = Photo.new({
   description: "Perfect lighting in a wooden room",
   user: user2,
 })
-photo19.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/wood.jpg'), filename: 'wood.jpg')
+photo19.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/wood1.jpg'), filename: 'wood1.jpg')
 photo19.save!
 
 photo20 = Photo.new({
@@ -211,7 +211,7 @@ photo20 = Photo.new({
   description: "Perfect weather for a nice swim!",
   user: user1,
 })
-photo20.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/beach.jpg'), filename: 'beach.jpg')
+photo20.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/beach1.jpg'), filename: 'beach1.jpg')
 photo20.save!
 
 photo21 = Photo.new({
@@ -219,7 +219,7 @@ photo21 = Photo.new({
   description: "It's so fluffy",
   user: user2,
 })
-photo21.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/bird.jpg'), filename: 'bird.jpg')
+photo21.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/bird1.jpg'), filename: 'bird1.jpg')
 photo21.save!
 
 photo22 = Photo.new({
@@ -227,7 +227,7 @@ photo22 = Photo.new({
   description: "Caught this photo on a beautiful afternoon",
   user: user3,
 })
-photo22.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/dining.jpg'), filename: 'dining.jpg')
+photo22.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/dining1.jpg'), filename: 'dining1.jpg')
 photo22.save!
 
 photo23 = Photo.new({
@@ -235,7 +235,7 @@ photo23 = Photo.new({
   description: "A gift for someone special",
   user: user4,
 })
-photo23.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/flower.jpg'), filename: 'flower.jpg')
+photo23.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/flower1.jpg'), filename: 'flower1.jpg')
 photo23.save!
 
 photo24 = Photo.new({
@@ -243,7 +243,7 @@ photo24 = Photo.new({
   description: "Great view of the forest",
   user: user3,
 })
-photo24.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/forest.jpg'), filename: 'forest.jpg')
+photo24.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/forest1.jpg'), filename: 'forest1.jpg')
 photo24.save!
 
 photo25 = Photo.new({
@@ -251,7 +251,7 @@ photo25 = Photo.new({
   description: "The lake on a chilly day",
   user: user3,
 })
-photo25.image.attach(io: open('https://s3-us-west-1.amazonaws.com/shuttr-dev-seeds/lake.jpg'), filename: 'lake.jpg')
+photo25.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/lake1.jpg'), filename: 'lake1.jpg')
 photo25.save!
 
 photo26 = Photo.new({
@@ -259,7 +259,7 @@ photo26 = Photo.new({
   description: "Week 2 of my new seed",
   user: user1,
 })
-photo26.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seed.jpg'), filename: 'seed.jpg')
+photo26.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/seed1.jpg'), filename: 'seed1.jpg')
 photo26.save!
 
 photo27 = Photo.new({
@@ -267,7 +267,7 @@ photo27 = Photo.new({
   description: "During my night run",
   user: user2,
 })
-photo27.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/sky.jpg'), filename: 'sky.jpg')
+photo27.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/sky1.jpg'), filename: 'sky1.jpg')
 photo27.save!
 
 
@@ -276,7 +276,7 @@ photo28 = Photo.new({
   description: "Nice day at the beach!",
   user: user3,
 })
-photo28.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/cloud.jpg'), filename: 'cloud.jpg')
+photo28.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/cloud1.jpg'), filename: 'cloud1.jpg')
 photo28.save!
 
 photo29 = Photo.new({
