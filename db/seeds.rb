@@ -324,7 +324,7 @@ photo33 = Photo.new({
   description: "The view from my new apartment",
   user: user1,
 })
-photo33.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/nightcity.jpg'), filename: 'nightcity.jpg')
+photo33.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/nightcity1.jpg'), filename: 'nightcity1.jpg')
 photo33.save!
 
 photo34 = Photo.new({
@@ -332,7 +332,7 @@ photo34 = Photo.new({
   description: "It was a great camping trip.",
   user: user2,
 })
-photo34.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camper.jpg'), filename: 'camper.jpg')
+photo34.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/camper1.jpg'), filename: 'camper1.jpg')
 photo34.save!
 
 photo35 = Photo.new({
@@ -340,7 +340,7 @@ photo35 = Photo.new({
   description: "The view from my tent at Yosemite",
   user: user4,
 })
-photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/tent.jpg'), filename: 'tent.jpg')
+photo35.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/tent1.jpg'), filename: 'tent1.jpg')
 photo35.save!
 
 photo36 = Photo.new({
