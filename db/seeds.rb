@@ -380,7 +380,7 @@ photo40 = Photo.new({
   description: "Street Photography at Greece",
   user: user4,
 })
-photo40.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecestreet.jpg'), filename: 'greecestreet.jpg')
+photo40.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecestreet1.jpg'), filename: 'greecestreet1.jpg')
 photo40.save!
 
 photo41 = Photo.new({
@@ -388,5 +388,5 @@ photo41 = Photo.new({
   description: "Alleyway at Greece",
   user: user4,
 })
-photo41.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecealley.jpg'), filename: 'greecealley.jpg')
+photo41.image.attach(io: open('https://shuttr-dev-seeds.s3-us-west-1.amazonaws.com/greecealley1.jpg'), filename: 'greecealley1.jpg')
 photo41.save!
